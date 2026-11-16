@@ -1,0 +1,4501 @@
+# Kyrgyz translations for OZOK backend.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the OZOK backend project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OZOK backend VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-16 16:04+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ky\n"
+"Language-Team: ky <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: leads/services.py:57
+#, python-brace-format
+msgid " (партнёр {name})"
+msgstr " (өнөктөш {name})"
+
+#: integrations/services.py:177 integrations/services.py:340
+msgid " (совпадений нет)."
+msgstr " (дал келүүлөр жок)."
+
+#: network/models.py:113
+msgid "1-я продажа"
+msgstr "1-сатуу"
+
+#: network/models.py:114
+msgid "2-я продажа"
+msgstr "2-сатуу"
+
+#: accounts/models.py:97
+msgid "2FA включена"
+msgstr "2FA күйгүзүлгөн"
+
+#: accounts/views.py:112
+msgid "2FA доступна ролям Super Admin и Финансист."
+msgstr "2FA Super Admin жана Финансист ролдоруна жеткиликтүү."
+
+#: accounts/views.py:148
+msgid "2FA не включена."
+msgstr "2FA күйгүзүлгөн эмес."
+
+#: accounts/views.py:122
+msgid "2FA уже включена: сначала отключите её."
+msgstr "2FA мурунтан эле күйгүзүлгөн: адегенде аны өчүрүңүз."
+
+#: network/models.py:115
+msgid "3-я продажа"
+msgstr "3-сатуу"
+
+#: network/models.py:49
+msgid "API-ключ интеграции"
+msgstr "Интеграциянын API-ачкычы"
+
+#: clients/legacy.py:130
+#, python-brace-format
+msgid "ID в продукте {v} ({name})"
+msgstr "Продуктудагы ID {v} ({name})"
+
+#: clients/models.py:246
+msgid "ID клиента в продукте"
+msgstr "Кардардын продуктудагы ID'си"
+
+#: billing/models.py:212
+msgid "ID операции"
+msgstr "Операциянын ID'си"
+
+#: clients/models.py:348
+msgid "ID платежа в продукте"
+msgstr "Төлөмдүн продуктудагы ID'си"
+
+#: integrations/models.py:22
+msgid "ID события"
+msgstr "Окуянын ID'си"
+
+#: clients/deal_serializers.py:14 dashboard/analytics.py:18
+msgid "OZOK (прямые продажи)"
+msgstr "OZOK (түз сатуулар)"
+
+#: leads/services.py:153
+msgid "OZOK подтвердила владельца заявки"
+msgstr "OZOK өтүнмөнүн ээсин ырастады"
+
+#: clients/legacy_views.py:77
+#, python-brace-format
+msgid "actions: ожидается JSON-объект {строка: merge|skip}."
+msgstr "actions: JSON-объект күтүлүүдө {сап: merge|skip}."
+
+#: clients/legacy.py:317
+msgid "duplicates: merge или skip."
+msgstr "duplicates: merge же skip."
+
+#: clients/models.py:149
+msgid "from_partner — приоритетный партнёр (филиал ещё никем не обслуживался)"
+msgstr "from_partner — артыкчылыктуу өнөктөш (филиалга али эч ким кызмат көрсөтө элек)"
+
+#: network/closure.py:51
+msgid "transfer_to_user — сотрудник OZOK."
+msgstr "transfer_to_user — OZOK кызматкери."
+
+#: accounts/views.py:226
+#, python-brace-format
+msgid "{name} (копия)"
+msgstr "{name} (көчүрмө)"
+
+#: clients/legacy.py:99
+msgid "«Оплачено до» раньше «Пользуется с»."
+msgstr "«Төлөнгөн мөөнөтү» «Колдоно баштаган күнүнөн» мурун."
+
+#: clients/legacy.py:97
+msgid "«Пользуется с» не может быть в будущем."
+msgstr "«Колдоно баштаган күнү» келечекте болушу мүмкүн эмес."
+
+#: core/settings_registry.py:148
+msgid "«Рассрочка до» не может быть меньше суммы «Сразу»."
+msgstr "«Бөлүп төлөө» суммасы «Дароо» суммасынан аз болушу мүмкүн эмес."
+
+#: clients/deals.py:111
+msgid "Абонентская комиссия не начисляется: статус партнёра не «Франчайзи»."
+msgstr "Абоненттик комиссия эсептелбейт: өнөктөштүн статусу «Франчайзи» эмес."
+
+#: clients/services.py:191
+#, python-brace-format
+msgid "Абонентское вознаграждение не начислено: на дату оплаты статус партнёра не «Франчайзи» ({label})."
+msgstr "Абоненттик сыйакы эсептелген жок: төлөм күнүнө өнөктөштүн статусу «Франчайзи» эмес ({label})."
+
+#: clients/models.py:289 clients/models.py:432 clients/reports.py:16
+msgid "Абонплата"
+msgstr "Абоненттик төлөм"
+
+#: network/models.py:369
+msgid "Абонплата (подписка и продление)"
+msgstr "Абоненттик төлөм (жазылуу жана узартуу)"
+
+#: billing/cash.py:95
+#, python-brace-format
+msgid "Абонплата {business_name}"
+msgstr "{business_name} абоненттик төлөмү"
+
+#: clients/models.py:249
+msgid "Абонплата в месяц"
+msgstr "Айлык абоненттик төлөм"
+
+#: billing/serializers.py:49
+msgid "Автоматический зачёт изменить нельзя."
+msgstr "Автоматтык эсептешүүнү өзгөртүүгө болбойт."
+
+#: billing/views.py:42
+msgid "Автоматический зачёт отменяется вместе с продажей, по которой он создан."
+msgstr "Автоматтык эсептешүү ал түзүлгөн сатуу менен бирге жокко чыгарылат."
+
+#: billing/models.py:368
+msgid "Автопроводки"
+msgstr "Автоматтык жазуулар"
+
+#: clients/legacy.py:25 clients/models.py:41 clients/models.py:71
+msgid "Адрес"
+msgstr "Дарек"
+
+#: clients/models.py:213
+msgid "Акт (файл/ссылка)"
+msgstr "Акт (файл/шилтеме)"
+
+#: clients/models.py:214
+msgid "Акт подтверждён"
+msgstr "Акт ырасталды"
+
+#: network/views.py:327
+#, python-brace-format
+msgid "Активация до этапа «менеджер»: {reason}"
+msgstr "«Менеджер» этабына чейин активдештирүү: {reason}"
+
+#: accounts/models.py:99 clients/models.py:44 network/models.py:47
+msgid "Активен"
+msgstr "Активдүү"
+
+#: network/models.py:117
+msgid "Активирован"
+msgstr "Активдештирилди"
+
+#: network/services.py:201
+msgid "Активировать можно только договор в статусе «Черновик»."
+msgstr "Активдештирүүгө «Долбоор» статусундагы келишимди гана болот."
+
+#: clients/models.py:235
+msgid "Активна"
+msgstr "Активдүү"
+
+#: network/models.py:216 network/models.py:345 network/models.py:399
+msgid "Активно"
+msgstr "Активдүү"
+
+#: billing/models.py:304 network/models.py:396
+msgid "База"
+msgstr "База"
+
+#: clients/models.py:318
+msgid "База расчёта"
+msgstr "Эсептөө базасы"
+
+#: accounts/models.py:40
+msgid "Базовая роль (тип пользователя)"
+msgstr "Негизги роль (колдонуучунун түрү)"
+
+#: training/models.py:41
+msgid "Балл"
+msgstr "Балл"
+
+#: training/services.py:42
+msgid "Балл должен быть целым числом от 0 до 100."
+msgstr "Балл 0дон 100гө чейинки бүтүн сан болушу керек."
+
+#: training/serializers.py:57 training/serializers.py:58
+msgid "Балл — от 0 до 100."
+msgstr "Балл — 0дон 100гө чейин."
+
+#: billing/models.py:37 billing/models.py:71 billing/models.py:339
+msgid "Банк"
+msgstr "Банк"
+
+#: clients/models.py:32
+msgid "Бизнес"
+msgstr "Бизнес"
+
+#: clients/legacy.py:240
+msgid "Бишкек"
+msgstr "Бишкек"
+
+#: core/settings_registry.py:41
+msgid "Блок «Маркетинг» для Standard, %"
+msgstr "Standard үчүн «Маркетинг» блогу, %"
+
+#: billing/payments.py:312
+msgid "Будет создана оплата."
+msgstr "Төлөм түзүлөт."
+
+#: billing/models.py:286
+msgid "В выплате"
+msgstr "Төлөмдө"
+
+#: network/services.py:204
+msgid "В договоре не указаны продукты."
+msgstr "Келишимде продуктулар көрсөтүлгөн эмес."
+
+#: integrations/views.py:57
+#, python-brace-format
+msgid "В одном запросе можно передать не более {MAX_BATCH} событий."
+msgstr "Бир суроо-талапта {MAX_BATCH} окуядан ашык жөнөтүүгө болбойт."
+
+#: clients/deals.py:269
+msgid "В продаже нет строк."
+msgstr "Сатууда саптар жок."
+
+#: training/models.py:33
+msgid "В процессе"
+msgstr "Жүрүп жатат"
+
+#: clients/models.py:206 leads/models.py:37 leads/services.py:92
+msgid "В работе"
+msgstr "Иште"
+
+#: clients/legacy.py:255
+msgid "В файле нет колонки «Название»."
+msgstr "Файлда «Аталышы» тилкеси жок."
+
+#: billing/payments.py:263
+msgid "В файле нет колонок: "
+msgstr "Файлда тилкелер жок: "
+
+#: clients/legacy.py:262
+msgid "В файле нет строк с клиентами."
+msgstr "Файлда кардарлары бар саптар жок."
+
+#: billing/payments.py:270
+msgid "В файле нет строк с операциями."
+msgstr "Файлда операциялары бар саптар жок."
+
+#: core/change_requests.py:34
+msgid "Ваша роль не может решать запросы на изменение (настройка «Согласования»)."
+msgstr "Сиздин ролуңуз өзгөртүү сурамдарын чечүүгө укуксуз («Макулдашуулар» жөндөөсү)."
+
+#: clients/installations.py:206
+msgid "Введите комментарий."
+msgstr "Комментарий киргизиңиз."
+
+#: tasks/serializers.py:41
+msgid "Введите текст комментария."
+msgstr "Комментарийдин текстин киргизиңиз."
+
+#: integrations/views.py:75
+msgid "Вебхук Элкюар не настроен (ELQR_WEBHOOK_SECRET)."
+msgstr "Элкюар вебхугу ыңгайлаштырылган эмес (ELQR_WEBHOOK_SECRET)."
+
+#: billing/models.py:10
+msgid "Взнос"
+msgstr "Жарна"
+
+#: network/services.py:139
+#, python-brace-format
+msgid "Взнос (сразу) по договору {number}"
+msgstr "{number} келишими боюнча жарна (дароо)"
+
+#: leads/services.py:88
+msgid "Взять в работу можно только назначенную заявку."
+msgstr "Иштетүүгө дайындалган өтүнмөнү гана алууга болот."
+
+#: billing/models.py:21 clients/models.py:303
+msgid "Вид"
+msgstr "Түрү"
+
+#: network/models.py:388
+msgid "Вид продажи"
+msgstr "Сатуунун түрү"
+
+#: accounts/views.py:296
+msgid "Включение сотрудника"
+msgstr "Кызматкерди күйгүзүү"
+
+#: network/models.py:142
+msgid "Владелец"
+msgstr "Ээси"
+
+#: leads/services.py:150
+msgid "Владелец заявки уже подтверждён."
+msgstr "Өтүнмөнүн ээси мурунтан эле ырасталган."
+
+#: leads/models.py:63
+msgid "Владелец лида подтверждён OZOK"
+msgstr "Лиддин ээси OZOK тарабынан ырасталды"
+
+#: billing/models.py:406
+msgid "Вложение (чек/счёт)"
+msgstr "Тиркеме (чек/эсеп)"
+
+#: clients/models.py:130
+msgid "Внедренец"
+msgstr "Ишке киргизүүчү"
+
+#: clients/models.py:203
+msgid "Внедренец (разработчик)"
+msgstr "Ишке киргизүүчү (иштеп чыгуучу)"
+
+#: clients/branches.py:103
+msgid "Внедренец не является ответственным за филиал: комиссия не начисляется (H10)."
+msgstr "Ишке киргизүүчү филиал үчүн жооптуу эмес: комиссия эсептелбейт (H10)."
+
+#: clients/models.py:219
+msgid "Внедрение"
+msgstr "Ишке киргизүү"
+
+#: clients/models.py:129
+msgid "Внедрение и сопровождение"
+msgstr "Ишке киргизүү жана коштоо"
+
+#: clients/services.py:283
+msgid "Внедрение уже находится на этом этапе."
+msgstr "Ишке киргизүү мурунтан эле ушул этапта турат."
+
+#: clients/models.py:220
+msgid "Внедрения"
+msgstr "Ишке киргизүүлөр"
+
+#: clients/serializers.py:435
+msgid "Внедренца назначает OZOK."
+msgstr "Ишке киргизүүчүнү OZOK дайындайт."
+
+#: billing/cash.py:73
+msgid "Возврат"
+msgstr "Кайтаруу"
+
+#: clients/services.py:309
+msgid "Возврат возможен только по платежу клиента."
+msgstr "Кайтаруу кардардын төлөмү боюнча гана мүмкүн."
+
+#: integrations/services.py:212
+#, python-brace-format
+msgid "Возврат не обработан: источник абонплаты продукта — {v}."
+msgstr "Кайтаруу иштелген жок: продуктунун абоненттик төлөм булагы — {v}."
+
+#: billing/accruals.py:107 billing/cash.py:107
+msgid "Возврат платежа клиента"
+msgstr "Кардардын төлөмүн кайтаруу"
+
+#: clients/services.py:335
+#, python-brace-format
+msgid "Возврат по платежу {external_payment_id}"
+msgstr "{external_payment_id} төлөмү боюнча кайтаруу"
+
+#: clients/models.py:353
+msgid "Возврат по продаже"
+msgstr "Сатуу боюнча кайтаруу"
+
+#: billing/cash.py:73 network/views.py:203
+#, python-brace-format
+msgid "Возврат: {reason}"
+msgstr "Кайтаруу: {reason}"
+
+#: billing/models.py:206
+msgid "Возвращено"
+msgstr "Кайтарылды"
+
+#: billing/models.py:193
+msgid "Возвращён"
+msgstr "Кайтарылды"
+
+#: clients/services.py:256
+msgid "Вознаграждение начисляется только за подписку и продление."
+msgstr "Сыйакы жазылуу жана узартуу үчүн гана эсептелет."
+
+#: network/models.py:44
+msgid "Вознаграждение по умолчанию, %"
+msgstr "Демейки сыйакы, %"
+
+#: billing/cash.py:174 billing/models.py:121
+msgid "Вознаграждение рекрутера"
+msgstr "Рекрутердин сыйакысы"
+
+#: core/settings_registry.py:17
+msgid "Вознаграждение рекрутеру, сом (≈ $150)"
+msgstr "Рекрутерге сыйакы, сом (≈ $150)"
+
+#: clients/models.py:319
+msgid "Вознаграждение с абонплаты"
+msgstr "Абоненттик төлөмдөн сыйакы"
+
+#: billing/recruiters.py:117
+msgid "Вознаграждение уже отменено."
+msgstr "Сыйакы мурунтан эле жокко чыгарылган."
+
+#: billing/models.py:122
+msgid "Вознаграждения рекрутеров"
+msgstr "Рекрутерлердин сыйакылары"
+
+#: billing/models.py:187 clients/models.py:295
+msgid "Вручную"
+msgstr "Кол менен"
+
+#: network/models.py:43
+msgid "Вручную / банк"
+msgstr "Кол менен / банк"
+
+#: accounts/models.py:29
+msgid "Все данные"
+msgstr "Бардык маалымат"
+
+#: network/services.py:257
+msgid "Все сферы пакета уже подключены."
+msgstr "Пакеттин бардык чөйрөлөрү мурунтан эле туташтырылган."
+
+#: leads/models.py:96
+msgid "Встреча"
+msgstr "Жолугушуу"
+
+#: clients/branches.py:167
+msgid "Второй филиал закреплён за партнёром первого филиала: назначайте другого партнёра действием reassign с основанием."
+msgstr "Экинчи филиал биринчи филиалдын өнөктөшүнө бекитилген: башка өнөктөштү reassign аракети менен негиздеме көрсөтүп дайындаңыз."
+
+#: core/models.py:147
+msgid "Вход"
+msgstr "Кирүү"
+
+#: leads/models.py:26
+msgid "Входящий звонок"
+msgstr "Кирүүчү чалуу"
+
+#: clients/deal_serializers.py:111
+msgid "Выберите клиента или создайте нового."
+msgstr "Кардарды тандаңыз же жаңысын түзүңүз."
+
+#: network/serializers.py:140
+msgid "Выберите хотя бы одну сферу."
+msgstr "Жок дегенде бир чөйрөнү тандаңыз."
+
+#: quality/services.py:12
+msgid "Вывеска и материалы по брендбуку"
+msgstr "Маркалоо китебине ылайык көрнөк жана материалдар"
+
+#: billing/cash.py:145 billing/models.py:85
+msgid "Выплата вознаграждения"
+msgstr "Сыйакы төлөө"
+
+#: billing/cash.py:168 billing/models.py:275
+msgid "Выплата комиссий"
+msgstr "Комиссияларды төлөө"
+
+#: billing/payouts.py:83
+msgid "Выплата уже отменена."
+msgstr "Төлөм мурунтан эле жокко чыгарылган."
+
+#: billing/recruiters.py:99
+msgid "Выплатить можно только проверенное вознаграждение."
+msgstr "Текшерилген сыйакыны гана төлөөгө болот."
+
+#: clients/installations.py:220
+msgid "Выплатить можно только проверенное начисление."
+msgstr "Текшерилген эсептөөнү гана төлөөгө болот."
+
+#: billing/payouts.py:63
+msgid "Выплатить можно только проверенную выплату (§11.1)."
+msgstr "Текшерилген төлөмдү гана төлөөгө болот (§11.1)."
+
+#: billing/models.py:86
+msgid "Выплаты вознаграждения"
+msgstr "Сыйакы төлөмдөрү"
+
+#: billing/models.py:276
+msgid "Выплаты комиссий"
+msgstr "Комиссия төлөмдөрү"
+
+#: billing/models.py:255
+msgid "Выплачена"
+msgstr "Төлөндү"
+
+#: billing/recruiters.py:115
+msgid "Выплаченное вознаграждение не отменяется: оформите корректировку."
+msgstr "Төлөнгөн сыйакы жокко чыгарылбайт: оңдоо киргизиңиз."
+
+#: billing/payouts.py:81
+msgid "Выплаченную выплату отменить нельзя: оформите корректировку (сторно)."
+msgstr "Төлөнгөн төлөмдү жокко чыгарууга болбойт: оңдоо (сторно) киргизиңиз."
+
+#: billing/models.py:98 billing/models.py:287 clients/models.py:499
+msgid "Выплачено"
+msgstr "Төлөндү"
+
+#: billing/models.py:114
+msgid "Выплачено, сом"
+msgstr "Төлөндү, сом"
+
+#: tasks/models.py:18
+msgid "Выполнена"
+msgstr "Аткарылды"
+
+#: tasks/services.py:36
+msgid "Выполнить можно новую задачу или задачу в работе."
+msgstr "Жаңы тапшырманы же иштеп жаткан тапшырманы аткарууга болот."
+
+#: quality/models.py:17 tasks/models.py:13
+msgid "Высокий"
+msgstr "Жогору"
+
+#: clients/models.py:345
+msgid "Гарантия до"
+msgstr "Кепилдик мөөнөтү"
+
+#: network/models.py:343
+msgid "Гарантия, мес."
+msgstr "Кепилдик, ай"
+
+#: network/models.py:233
+msgid "Гибридная"
+msgstr "Гибрид"
+
+#: clients/legacy.py:25 clients/models.py:40 clients/models.py:72
+msgid "Город"
+msgstr "Шаар"
+
+#: network/models.py:138
+msgid "Города покрытия"
+msgstr "Камтылган шаарлар"
+
+#: network/serializers.py:265
+msgid "Города покрытия — список строк."
+msgstr "Камтылган шаарлар — саптардын тизмеси."
+
+#: core/models.py:124
+msgid "Группа"
+msgstr "Топ"
+
+#: integrations/models.py:23
+msgid "Данные"
+msgstr "Маалымат"
+
+#: billing/models.py:54 billing/models.py:78 clients/models.py:304
+msgid "Дата"
+msgstr "Күнү"
+
+#: network/models.py:158
+msgid "Дата аттестации"
+msgstr "Аттестация күнү"
+
+#: network/models.py:164
+msgid "Дата вступления"
+msgstr "Кошулган күнү"
+
+#: clients/models.py:78
+msgid "Дата запуска"
+msgstr "Ишке киргизилген күнү"
+
+#: billing/models.py:207
+msgid "Дата и время оплаты (операции)"
+msgstr "Төлөмдүн (операциянын) датасы жана убактысы"
+
+#: network/views.py:447
+msgid "Дата начала новой версии должна быть позже начала действующей."
+msgstr "Жаңы версиянын башталышы колдонуудагынын башталышынан кийин болушу керек."
+
+#: network/views.py:445
+msgid "Дата начала новой версии не может быть в прошлом."
+msgstr "Жаңы версиянын башталышы өткөндө болушу мүмкүн эмес."
+
+#: network/models.py:155
+msgid "Дата обучения"
+msgstr "Окутуу күнү"
+
+#: network/serializers.py:605
+msgid "Дата окончания раньше даты начала."
+msgstr "Аяктоо күнү башталуу күнүнөн мурун."
+
+#: billing/models.py:297
+msgid "Дата оплаты (на которую взята ставка)"
+msgstr "Төлөм күнү (ставка алынган күн)"
+
+#: billing/serializers.py:74
+msgid "Дата платежа не может быть в будущем."
+msgstr "Төлөмдүн күнү келечекте болушу мүмкүн эмес."
+
+#: clients/models.py:399 network/models.py:242
+msgid "Дата подписания"
+msgstr "Кол коюлган күнү"
+
+#: billing/cash.py:196
+msgid "Дата проводки не может быть в будущем."
+msgstr "Жазуунун күнү келечекте болушу мүмкүн эмес."
+
+#: billing/cash.py:199
+#, python-brace-format
+msgid "Дата раньше даты начального остатка счёта «{name}» ({opening_date})."
+msgstr "Күнү «{name}» эсебинин баштапкы калдык күнүнөн ({opening_date}) мурун."
+
+#: network/models.py:237
+msgid "Действует"
+msgstr "Күчүндө"
+
+#: network/models.py:264 training/models.py:44
+msgid "Действует до"
+msgstr "Күчүндө (чейин)"
+
+#: network/models.py:325 network/models.py:398
+msgid "Действует по"
+msgstr "Күчүндө (чейин)"
+
+#: clients/models.py:155 network/models.py:188 network/models.py:324
+msgid "Действует с"
+msgstr "Күчүндө (баштап)"
+
+#: core/settings_registry.py:32
+msgid "Делить многомесячную оплату по месяцам"
+msgstr "Көп айлык төлөмдү айлар боюнча бөлүү"
+
+#: leads/models.py:38 leads/models.py:97 leads/services.py:100
+msgid "Демо"
+msgstr "Демо"
+
+#: quality/services.py:14
+msgid "Демо по стандарту OZOK"
+msgstr "OZOK стандарты боюнча демо"
+
+#: integrations/simulator.py:32
+msgid "Демо-клиент (тест интеграции)"
+msgstr "Демо-кардар (интеграцияны тестирлөө)"
+
+#: clients/deals.py:60
+msgid "Для абонплаты укажите тариф и количество месяцев."
+msgstr "Абоненттик төлөм үчүн тарифти жана айлардын санын көрсөтүңүз."
+
+#: network/partners.py:99
+msgid "Для изменения задним числом укажите причину."
+msgstr "Мурунку күнгө өзгөртүү үчүн себебин көрсөтүңүз."
+
+#: network/views.py:360
+msgid "Для изменения минимальной цены укажите причину (reason)."
+msgstr "Минималдуу баанын өзгөртүү үчүн себебин (reason) көрсөтүңүз."
+
+#: core/settings_registry.py:162
+#, python-brace-format
+msgid "Для источника «{src}» нет активного счёта вида «{kind}»."
+msgstr "«{src}» булагы үчүн «{kind}» түрүндөгү активдүү эсеп жок."
+
+#: clients/deals.py:49
+msgid "Для оборудования укажите модель."
+msgstr "Жабдуу үчүн моделин көрсөтүңүз."
+
+#: network/services.py:32
+msgid "Для одной сферы схема «Предоплата» недоступна."
+msgstr "Бир чөйрө үчүн «Алдын ала төлөм» схемасы жеткиликсиз."
+
+#: network/serializers.py:667
+msgid "Для остатка укажите количество платежей рассрочки."
+msgstr "Калдык үчүн бөлүп төлөөнүн төлөмдөрүнүн санын көрсөтүңүз."
+
+#: billing/cash.py:206
+msgid "Для перевода укажите другой счёт назначения."
+msgstr "Которуу үчүн башка алуучу эсепти көрсөтүңүз."
+
+#: integrations/services.py:308
+msgid "Для платежа укажите клиента франчайзи."
+msgstr "Төлөм үчүн франчайзинин кардарын көрсөтүңүз."
+
+#: network/serializers.py:616
+msgid "Для правила по лидам OZOK укажите основание."
+msgstr "OZOK лиддери боюнча эреже үчүн негиздеме көрсөтүңүз."
+
+#: clients/deal_serializers.py:120
+msgid "Для продажи OZOK без партнёра укажите название клиента."
+msgstr "Өнөктөшсүз OZOK сатуусу үчүн кардардын атын көрсөтүңүз."
+
+#: network/services.py:117
+msgid "Для рассрочки укажите количество платежей."
+msgstr "Бөлүп төлөө үчүн төлөмдөрдүн санын көрсөтүңүз."
+
+#: accounts/serializers.py:165
+msgid "Для роли партнёра укажите партнёра."
+msgstr "Өнөктөш ролу үчүн өнөктөштү көрсөтүңүз."
+
+#: core/change_requests.py:42
+msgid "Для этого запроса нет обработчика."
+msgstr "Бул сурам үчүн иштеткич жок."
+
+#: clients/branches.py:182
+msgid "Для этого филиала нет приоритетного партнёра."
+msgstr "Бул филиал үчүн артыкчылыктуу өнөктөш жок."
+
+#: clients/deals.py:74
+msgid "Добавьте хотя бы одну строку продажи."
+msgstr "Жок дегенде бир сатуу сабын кошуңуз."
+
+#: clients/deal_serializers.py:129
+msgid "Добавьте хотя бы одну строку."
+msgstr "Жок дегенде бир сап кошуңуз."
+
+#: clients/models.py:180 leads/models.py:40 network/models.py:268
+msgid "Договор"
+msgstr "Келишим"
+
+#: clients/models.py:526
+msgid "Договор менеджера"
+msgstr "Менеджердин келишими"
+
+#: clients/models.py:528
+msgid "Договор с клиентом"
+msgstr "Кардар менен келишим"
+
+#: network/services.py:228
+msgid "Договор уже закрыт."
+msgstr "Келишим мурунтан эле жабылган."
+
+#: clients/models.py:527
+msgid "Договор франчайзи"
+msgstr "Франчайзинин келишими"
+
+#: network/models.py:116
+msgid "Договор франшизы"
+msgstr "Франшиза келишими"
+
+#: network/partners.py:165
+msgid "Договор франшизы активирован"
+msgstr "Франшиза келишими активдештирилди"
+
+#: network/models.py:269
+msgid "Договоры"
+msgstr "Келишимдер"
+
+#: billing/models.py:116
+msgid "Долг рекрутера (корректировка после выплаты)"
+msgstr "Рекрутердин карызы (төлөмдөн кийинки оңдоо)"
+
+#: clients/models.py:167
+msgid "Должность"
+msgstr "Кызматы"
+
+#: billing/models.py:13
+msgid "Доля OZOK по лидам OZOK"
+msgstr "OZOK лиддери боюнча OZOK үлүшү"
+
+#: clients/models.py:331
+msgid "Доля OZOK по лиду OZOK"
+msgstr "OZOK лиди боюнча OZOK үлүшү"
+
+#: clients/services.py:123
+#, python-brace-format
+msgid "Доля OZOK по лиду OZOK ({v})"
+msgstr "OZOK лиди боюнча OZOK үлүшү ({v})"
+
+#: network/models.py:417
+msgid "Доля внедренца"
+msgstr "Ишке киргизүүчүнүн үлүшү"
+
+#: network/models.py:416
+msgid "Доля партнёра"
+msgstr "Өнөктөштүн үлүшү"
+
+#: network/serializers.py:687
+msgid "Доля партнёра + доля внедренца должны равняться стоимости установки."
+msgstr "Өнөктөштүн үлүшү + ишке киргизүүчүнүн үлүшү орнотуунун баасына барабар болушу керек."
+
+#: network/models.py:392
+msgid "Доля франчайзи, %"
+msgstr "Франчайзинин үлүшү, %"
+
+#: core/settings_registry.py:34
+msgid "Допустимая скидка по умолчанию, %"
+msgstr "Демейки уруксат берилген арзандатуу, %"
+
+#: clients/models.py:342
+msgid "Доставка"
+msgstr "Жеткирүү"
+
+#: clients/models.py:344
+msgid "Доставлено"
+msgstr "Жеткирилди"
+
+#: billing/models.py:141
+msgid "Доход"
+msgstr "Киреше"
+
+#: clients/models.py:322
+msgid "Доход задан вручную"
+msgstr "Киреше кол менен коюлган"
+
+#: clients/services.py:238
+msgid "Доход не может быть отрицательным."
+msgstr "Киреше терс болушу мүмкүн эмес."
+
+#: clients/models.py:321
+msgid "Доход франчайзи"
+msgstr "Франчайзинин кирешеси"
+
+#: billing/models.py:176
+msgid "Доход/расход партнёра"
+msgstr "Өнөктөштүн кирешеси/чыгашасы"
+
+#: billing/models.py:177
+msgid "Доходы и расходы партнёров"
+msgstr "Өнөктөштөрдүн кирешелери жана чыгашалары"
+
+#: clients/models.py:16 clients/models.py:141 leads/models.py:28
+msgid "Другое"
+msgstr "Башка"
+
+#: integrations/models.py:13
+msgid "Дубликат"
+msgstr "Дубликат"
+
+#: billing/payments.py:331
+msgid "Дубль внутри файла."
+msgstr "Файл ичинде кайталануу."
+
+#: clients/legacy.py:339
+msgid "Дубль: "
+msgstr "Кайталануу: "
+
+#: network/models.py:344
+msgid "Единица"
+msgstr "Бирдик"
+
+#: core/models.py:166
+msgid "Журнал аудита"
+msgstr "Аудит журналы"
+
+#: network/models.py:377
+msgid "За оплаченный месяц"
+msgstr "Төлөнгөн ай үчүн"
+
+#: network/models.py:376
+msgid "За продажу"
+msgstr "Сатуу үчүн"
+
+#: clients/models.py:208
+msgid "Завершена"
+msgstr "Аяктады"
+
+#: clients/installations.py:79
+msgid "Завершить можно только после подтверждения акта клиентом."
+msgstr "Кардар актыны ырастагандан кийин гана аяктоого болот."
+
+#: tasks/models.py:25
+msgid "Заголовок"
+msgstr "Баш аты"
+
+#: tasks/models.py:37
+msgid "Задача"
+msgstr "Тапшырма"
+
+#: tasks/models.py:38
+msgid "Задачи"
+msgstr "Тапшырмалар"
+
+#: clients/models.py:343
+msgid "Заказано"
+msgstr "Заказ берилди"
+
+#: clients/models.py:67 network/models.py:101 network/models.py:160
+msgid "Закрыт"
+msgstr "Жабылды"
+
+#: clients/models.py:239 clients/models.py:255
+msgid "Закрыта"
+msgstr "Жабылды"
+
+#: quality/models.py:24
+msgid "Закрыто"
+msgstr "Жабылды"
+
+#: network/serializers.py:304
+#, python-brace-format
+msgid "Закрытого партнёра нельзя вернуть через PATCH: используйте franchisees/{id}/reopen/ (Super Admin)."
+msgstr "Жабылган өнөктөштү PATCH аркылуу кайтарууга болбойт: franchisees/{id}/reopen/ колдонуңуз (Super Admin)."
+
+#: leads/services.py:71
+msgid "Закрытую заявку нельзя переназначить."
+msgstr "Жабылган өтүнмөнү кайра дайындоого болбойт."
+
+#: leads/services.py:118
+msgid "Закрыть успешно можно заявку, которая в работе."
+msgstr "Ийгиликтүү жабууга иште турган өтүнмөнү гана болот."
+
+#: network/models.py:342
+msgid "Закупочная цена"
+msgstr "Сатып алуу баасы"
+
+#: clients/models.py:43 clients/models.py:196 leads/models.py:99
+msgid "Заметка"
+msgstr "Эскертүү"
+
+#: core/models.py:172
+msgid "Записи журнала аудита не изменяются."
+msgstr "Аудит журналынын жазуулары өзгөртүлбөйт."
+
+#: core/models.py:176
+msgid "Записи журнала аудита не удаляются."
+msgstr "Аудит журналынын жазуулары өчүрүлбөйт."
+
+#: core/models.py:165
+msgid "Запись аудита"
+msgstr "Аудит жазуусу"
+
+#: core/models.py:99
+msgid "Запись уже отменена."
+msgstr "Жазуу мурунтан эле жокко чыгарылган."
+
+#: quality/serializers.py:84
+msgid "Заполните чек-лист."
+msgstr "Чек-листти толтуруңуз."
+
+#: core/models.py:204 leads/models.py:102
+msgid "Запрос на изменение"
+msgstr "Өзгөртүү сурамы"
+
+#: leads/services.py:183
+#, python-brace-format
+msgid "Запрос на изменение {field}: {old} → {value}. {reason}"
+msgstr "{field} өзгөртүү сурамы: {old} → {value}. {reason}"
+
+#: leads/views.py:56 leads/views.py:61
+msgid "Запрос на подключение рассматривает OZOK."
+msgstr "Туташтыруу сурамын OZOK карайт."
+
+#: core/change_requests.py:36
+msgid "Запрос уже рассмотрен."
+msgstr "Сурам мурунтан эле каралган."
+
+#: network/services.py:261
+#, python-brace-format
+msgid "Запрос франчайзи «{name}» на подключение {title}."
+msgstr "«{name}» франчайзинин {title} туташтыруу сурамы."
+
+#: core/models.py:205
+msgid "Запросы на изменение"
+msgstr "Өзгөртүү сурамдары"
+
+#: clients/models.py:183 clients/models.py:193
+msgid "Запущено"
+msgstr "Ишке киргизилди"
+
+#: billing/models.py:38 billing/models.py:72
+msgid "Зачёт"
+msgstr "Эсептешүү"
+
+#: billing/serializers.py:39
+msgid "Зачёты создаются автоматически при продажах."
+msgstr "Эсептешүүлөр сатуулар учурунда автоматтык түрдө түзүлөт."
+
+#: leads/models.py:75
+msgid "Заявка"
+msgstr "Өтүнмө"
+
+#: leads/services.py:122
+msgid "Заявка не назначена партнёру."
+msgstr "Өтүнмө өнөктөшкө дайындалган эмес."
+
+#: clients/deal_serializers.py:137
+msgid "Заявка относится к другому клиенту."
+msgstr "Өтүнмө башка кардарга тиешелүү."
+
+#: clients/deal_serializers.py:139
+msgid "Заявка принадлежит другому партнёру."
+msgstr "Өтүнмө башка өнөктөшкө таандык."
+
+#: leads/services.py:57
+msgid "Заявка создана"
+msgstr "Өтүнмө түзүлдү"
+
+#: leads/services.py:110
+msgid "Заявка уже в этом статусе."
+msgstr "Өтүнмө мурунтан эле ушул статуста."
+
+#: leads/services.py:139
+msgid "Заявка уже закрыта."
+msgstr "Өтүнмө мурунтан эле жабылган."
+
+#: leads/models.py:76
+msgid "Заявки"
+msgstr "Өтүнмөлөр"
+
+#: dashboard/services.py:89
+msgid "Заявки без реакции больше 24 часов"
+msgstr "24 сааттан ашык жооп берилбеген өтүнмөлөр"
+
+#: leads/models.py:95
+msgid "Звонок"
+msgstr "Чалуу"
+
+#: core/models.py:121
+msgid "Значение"
+msgstr "Маани"
+
+#: core/settings_registry.py:142
+msgid "Значение должно быть не меньше 1."
+msgstr "Маани 1ден кем болбошу керек."
+
+#: core/settings_registry.py:144
+msgid "Значение не может быть отрицательным."
+msgstr "Маани терс болушу мүмкүн эмес."
+
+#: network/views.py:272
+msgid "Значение уже установлено."
+msgstr "Маани мурунтан эле коюлган."
+
+#: clients/legacy.py:25 clients/models.py:34
+msgid "ИНН"
+msgstr "ИНН"
+
+#: network/models.py:134
+msgid "ИНН (защищённое)"
+msgstr "ИНН (корголгон)"
+
+#: clients/legacy.py:120
+#, python-brace-format
+msgid "ИНН {inn}"
+msgstr "ИНН {inn}"
+
+#: clients/legacy.py:240
+msgid "Иван Иванов"
+msgstr "Иван Иванов"
+
+#: clients/models.py:294
+msgid "Из продукта"
+msgstr "Продуктудан"
+
+#: core/models.py:144
+msgid "Изменение"
+msgstr "Өзгөртүү"
+
+#: network/partners.py:97
+msgid "Изменение задним числом доступно только Super Admin OZOK."
+msgstr "Мурунку күнгө өзгөртүү OZOK Super Admin'ге гана жеткиликтүү."
+
+#: core/models.py:60
+msgid "Изменено"
+msgstr "Өзгөртүлдү"
+
+#: network/serializers.py:409
+msgid "Изменить можно только черновик договора (у действующего — заметку, срок, удержание и основание скидки)."
+msgstr "Келишимдин долбоорун гана өзгөртүүгө болот (күчүндөгүдө — эскертүүнү, мөөнөттү, кармоону жана арзандатуунун негиздемесин)."
+
+#: clients/deal_serializers.py:127
+msgid "Изменить можно только черновик продажи."
+msgstr "Сатуунун долбоорун гана өзгөртүүгө болот."
+
+#: network/models.py:25
+msgid "Иконка"
+msgstr "Белгиче"
+
+#: billing/models.py:188 billing/models.py:244
+msgid "Импорт выписки"
+msgstr "Көчүрмөнү импорттоо"
+
+#: billing/models.py:245
+msgid "Импорты выписок"
+msgstr "Көчүрмөлөрдү импорттоо"
+
+#: accounts/models.py:79 leads/models.py:50
+msgid "Имя"
+msgstr "Аты"
+
+#: accounts/models.py:89
+msgid "Индивидуальные отличия от роли"
+msgstr "Ролдон жеке айырмачылыктар"
+
+#: network/models.py:48
+msgid "Интеграция включена"
+msgstr "Интеграция күйгүзүлгөн"
+
+#: leads/models.py:48
+msgid "Интерес"
+msgstr "Кызыгуу"
+
+#: clients/models.py:158
+msgid "История закрепления филиала"
+msgstr "Филиалды бекитүү тарыхы"
+
+#: clients/models.py:159
+msgid "История закрепления филиалов"
+msgstr "Филиалдарды бекитүү тарыхы"
+
+#: network/models.py:195
+msgid "История статуса партнёра"
+msgstr "Өнөктөш статусунун тарыхы"
+
+#: network/models.py:196
+msgid "История статусов партнёров"
+msgstr "Өнөктөш статустарынын тарыхы"
+
+#: network/models.py:329
+msgid "История цен тарифов"
+msgstr "Тариф баалар тарыхы"
+
+#: billing/models.py:211 clients/models.py:28 clients/models.py:347
+msgid "Источник"
+msgstr "Булак"
+
+#: billing/payments.py:109
+#, python-brace-format
+msgid "Источник абонплаты продукта «{name}» — {v}: остальные источники только сверяют и платёж не создают (C7)."
+msgstr "«{name}» продуктунун абоненттик төлөм булагы — {v}: калган булактар салыштырат гана, төлөм түзүшпөйт (C7)."
+
+#: billing/payments.py:310
+#, python-brace-format
+msgid "Источник абонплаты продукта — {v}: выписка только сверяет, оплата не создаётся."
+msgstr "Продуктунун абоненттик төлөм булагы — {v}: көчүрмө салыштырат гана, төлөм түзүлбөйт."
+
+#: network/models.py:145
+msgid "Источник кандидата"
+msgstr "Талапкердин булагы"
+
+#: clients/models.py:101 clients/models.py:326
+msgid "Источник лида"
+msgstr "Лиддин булагы"
+
+#: network/models.py:390
+msgid "Источник лида (корректировка по лидам OZOK)"
+msgstr "Лиддин булагы (OZOK лиддери боюнча оңдоо)"
+
+#: network/models.py:42
+msgid "Источник оплат абонплаты"
+msgstr "Абоненттик төлөмдөрдүн булагы"
+
+#: leads/serializers.py:60
+#, python-brace-format
+msgid "Источник, партнёра и ответственного за внедрение меняет только OZOK: отправьте запрос leads/{id}/change-request/."
+msgstr "Булакты, өнөктөштү жана ишке киргизүүгө жооптууну OZOK гана өзгөртөт: leads/{id}/change-request/ сурамын жөнөтүңүз."
+
+#: dashboard/services.py:96
+#, python-brace-format
+msgid "Истёк сертификат у сотрудников: {v}"
+msgstr "Кызматкерлерде сертификаттын мөөнөтү бүттү: {v}"
+
+#: billing/models.py:216
+msgid "Исходные данные"
+msgstr "Баштапкы маалымат"
+
+#: quality/models.py:64
+msgid "Итог"
+msgstr "Жыйынтыгы"
+
+#: clients/deals.py:103
+msgid "Итог по строке должен быть больше нуля."
+msgstr "Саптын жыйынтыгы нөлдөн чоң болушу керек."
+
+#: billing/payouts.py:41
+msgid "К выплате нет положительной суммы: отрицательный остаток переносится на следующий период."
+msgstr "Төлөөгө оң сумма жок: терс калдык кийинки мезгилге которулат."
+
+#: leads/models.py:39 leads/models.py:98
+msgid "КП"
+msgstr "КС"
+
+#: quality/serializers.py:67
+#, python-brace-format
+msgid "Каждый пункт: {\"criterion\": \"...\", \"ok\": true|false, \"comment\": \"\"}."
+msgstr "Ар бир пункт: {\"criterion\": \"...\", \"ok\": true|false, \"comment\": \"\"}."
+
+#: accounts/models.py:76
+msgid "Как в системе"
+msgstr "Системадагыдай"
+
+#: network/models.py:96
+msgid "Кандидат"
+msgstr "Талапкер"
+
+#: core/settings_registry.py:29
+msgid "Кандидат «застрял» на этапе, дней"
+msgstr "Талапкер этапта «токтоп калды», күн"
+
+#: billing/models.py:153
+msgid "Категории учёта"
+msgstr "Эсепке алуу категориялары"
+
+#: billing/serializers.py:171
+msgid "Категория не соответствует типу записи."
+msgstr "Категория жазуунун түрүнө дал келбейт."
+
+#: billing/serializers.py:174
+msgid "Категория отключена."
+msgstr "Категория өчүрүлгөн."
+
+#: billing/models.py:152
+msgid "Категория учёта"
+msgstr "Эсепке алуу категориясы"
+
+#: clients/models.py:15
+msgid "Кафе"
+msgstr "Кафе"
+
+#: clients/legacy.py:240
+msgid "Кафе «Пример»"
+msgstr "«Мисал» кафеси"
+
+#: clients/models.py:351
+msgid "Кем внесено"
+msgstr "Ким киргизди"
+
+#: clients/models.py:47
+msgid "Клиент"
+msgstr "Кардар"
+
+#: clients/models.py:378
+msgid "Клиент (для продаж OZOK без карточки)"
+msgstr "Кардар (карточкасыз OZOK сатуулары үчүн)"
+
+#: clients/models.py:20
+msgid "Клиент OZOK (существующий)"
+msgstr "OZOK кардары (учурдагы)"
+
+#: clients/services.py:178
+msgid "Клиент OZOK без партнёра: вознаграждение партнёру не начисляется."
+msgstr "Өнөктөшсүз OZOK кардары: өнөктөшкө сыйакы эсептелбейт."
+
+#: clients/services.py:165
+msgid "Клиент OZOK без партнёра: комиссия не начисляется."
+msgstr "Өнөктөшсүз OZOK кардары: комиссия эсептелбейт."
+
+#: clients/branches.py:99
+msgid "Клиент OZOK: комиссия не начисляется (включается владельцем для филиала)."
+msgstr "OZOK кардары: комиссия эсептелбейт (филиал үчүн ээси күйгүзөт)."
+
+#: clients/services.py:162
+msgid "Клиент OZOK: комиссия не начисляется."
+msgstr "OZOK кардары: комиссия эсептелбейт."
+
+#: integrations/serializers.py:31
+msgid "Клиент не найден."
+msgstr "Кардар табылган жок."
+
+#: clients/legacy.py:141
+msgid "Клиент привлечён партнёром."
+msgstr "Кардарды өнөктөш тартты."
+
+#: integrations/services.py:300
+msgid "Клиент принадлежит другому франчайзи."
+msgstr "Кардар башка франчайзиге таандык."
+
+#: clients/views.py:86
+msgid "Клиента с продажами или аккаунтами в продуктах может удалять только администратор центра."
+msgstr "Сатуулары же продуктулардагы аккаунттары бар кардарды борбордун администратору гана өчүрө алат."
+
+#: clients/models.py:48
+msgid "Клиенты"
+msgstr "Кардарлар"
+
+#: quality/services.py:16
+msgid "Клиенты получают сопровождение после запуска"
+msgstr "Кардарлар ишке киргизилгенден кийин коштоого алынат"
+
+#: core/models.py:120
+msgid "Ключ"
+msgstr "Ачкыч"
+
+#: accounts/models.py:34 network/models.py:18
+msgid "Код"
+msgstr "Код"
+
+#: network/models.py:211
+msgid "Код (cash/installment — суммы из настроек)"
+msgstr "Код (cash/installment — жөндөөлөрдөгү суммалар)"
+
+#: accounts/serializers.py:249
+msgid "Код занят системной ролью."
+msgstr "Код системалык ролго ээ."
+
+#: network/models.py:131
+msgid "Код партнёра"
+msgstr "Өнөктөштүн коду"
+
+#: network/serializers.py:86
+msgid "Код сферы нельзя менять после создания."
+msgstr "Чөйрөнүн коду түзүлгөндөн кийин өзгөртүлбөйт."
+
+#: network/models.py:293
+msgid "Код тарифа"
+msgstr "Тариф коду"
+
+#: network/serializers.py:519
+msgid "Код тарифа нельзя менять: его присылает интеграция."
+msgstr "Тариф кодун өзгөртүүгө болбойт: аны интеграция жөнөтөт."
+
+#: clients/models.py:308
+msgid "Количество"
+msgstr "Саны"
+
+#: clients/deals.py:54 clients/serializers.py:219
+msgid "Количество должно быть больше нуля."
+msgstr "Саны нөлдөн чоң болушу керек."
+
+#: billing/payments.py:98 integrations/services.py:145
+msgid "Количество месяцев должно быть от 1 до 120."
+msgstr "Айлардын саны 1ден 120га чейин болушу керек."
+
+#: network/serializers.py:386
+msgid "Количество платежей не может быть отрицательным."
+msgstr "Төлөмдөрдүн саны терс болушу мүмкүн эмес."
+
+#: clients/models.py:92
+msgid "Комиссия начисляется с"
+msgstr "Комиссия эсептелет (баштап)"
+
+#: tasks/models.py:54
+msgid "Комментарии к задачам"
+msgstr "Тапшырмалар боюнча комментарийлер"
+
+#: clients/models.py:474
+msgid "Комментарии к установкам"
+msgstr "Орнотуулар боюнча комментарийлер"
+
+#: billing/models.py:56 billing/models.py:80 clients/models.py:354
+msgid "Комментарий"
+msgstr "Комментарий"
+
+#: tasks/models.py:53
+msgid "Комментарий к задаче"
+msgstr "Тапшырмага комментарий"
+
+#: clients/models.py:473
+msgid "Комментарий к установке"
+msgstr "Орнотууга комментарий"
+
+#: leads/models.py:51
+msgid "Компания"
+msgstr "Компания"
+
+#: leads/models.py:33
+msgid "Консультация"
+msgstr "Консультация"
+
+#: clients/legacy.py:25
+msgid "Контакт"
+msgstr "Байланыш"
+
+#: clients/models.py:173
+msgid "Контакт клиента"
+msgstr "Кардардын байланышы"
+
+#: clients/models.py:38 leads/models.py:52
+msgid "Контактное лицо"
+msgstr "Байланыш жүзү"
+
+#: clients/models.py:174
+msgid "Контакты клиентов"
+msgstr "Кардарлардын байланыштары"
+
+#: accounts/models.py:64
+msgid "Контроль качества"
+msgstr "Сапатты көзөмөлдөө"
+
+#: billing/models.py:95
+msgid "Копится"
+msgstr "Топтолууда"
+
+#: billing/models.py:305 clients/models.py:330
+msgid "Корректировка по лиду OZOK"
+msgstr "OZOK лиди боюнча оңдоо"
+
+#: quality/models.py:18
+msgid "Критичный"
+msgstr "Критикалык"
+
+#: network/models.py:163
+msgid "Куратор"
+msgstr "Куратор"
+
+#: training/models.py:22
+msgid "Курс"
+msgstr "Курс"
+
+#: training/models.py:23
+msgid "Курсы"
+msgstr "Курстар"
+
+#: accounts/models.py:71
+msgid "Кыргызча"
+msgstr "Кыргызча"
+
+#: core/settings_registry.py:20
+msgid "Лид OZOK: доля OZOK от дохода франчайзи, %"
+msgstr "OZOK лиди: франчайзи кирешесинен OZOK үлүшү, %"
+
+#: core/settings_registry.py:19
+msgid "Лид OZOK: доля франчайзи с абонплаты, %"
+msgstr "OZOK лиди: абоненттик төлөмдөн франчайзи үлүшү, %"
+
+#: clients/serializers.py:90
+msgid "Лид клиента меняет только OZOK."
+msgstr "Кардардын лидин OZOK гана өзгөртөт."
+
+#: billing/models.py:213
+msgid "Лицевой счёт"
+msgstr "Жеке эсеп"
+
+#: integrations/services.py:331
+#, python-brace-format
+msgid "Лицевой счёт {account} не привязан ни к одному филиалу."
+msgstr "{account} жеке эсеби эч бир филиалга байланышкан эмес."
+
+#: clients/models.py:79
+msgid "Лицевой счёт Элкюар"
+msgstr "Элкюар жеке эсеби"
+
+#: billing/payments.py:292
+msgid "Лицевой счёт не найден."
+msgstr "Жеке эсеп табылган жок."
+
+#: clients/models.py:236
+msgid "Льготный период"
+msgstr "Жеңилдик мөөнөтү"
+
+#: core/settings_registry.py:25
+msgid "Льготный период подписки по умолчанию, дней"
+msgstr "Жазылуунун демейки жеңилдик мөөнөтү, күн"
+
+#: network/models.py:38
+msgid "Льготный период, дней (пусто — из настроек)"
+msgstr "Жеңилдик мөөнөтү, күн (бош — жөндөөлөрдөн)"
+
+#: network/models.py:302
+msgid "Льготный период, дней (пусто — как у продукта)"
+msgstr "Жеңилдик мөөнөтү, күн (бош — продуктудагыдай)"
+
+#: clients/models.py:12
+msgid "Магазин"
+msgstr "Дүкөн"
+
+#: network/models.py:36
+msgid "Макс. скидка, % (пусто — из настроек)"
+msgstr "Макс. арзандатуу, % (бош — жөндөөлөрдөн)"
+
+#: network/models.py:300
+msgid "Макс. скидка, % (пусто — как у продукта)"
+msgstr "Макс. арзандатуу, % (бош — продуктудагыдай)"
+
+#: training/models.py:16
+msgid "Материалы"
+msgstr "Материалдар"
+
+#: core/access.py:200
+msgid "Матрица: раздел -> none|read|write; разделы должны быть известными."
+msgstr "Матрица: бөлүм -> none|read|write; бөлүмдөр белгилүү болушу керек."
+
+#: accounts/models.py:67 network/models.py:98 network/models.py:112
+msgid "Менеджер"
+msgstr "Менеджер"
+
+#: planning/models.py:9
+msgid "Месяц (1-е число)"
+msgstr "Ай (1-күнү)"
+
+#: billing/models.py:210 clients/models.py:349
+msgid "Месяцев"
+msgstr "Ай"
+
+#: network/models.py:341
+msgid "Минимальная цена"
+msgstr "Минималдуу баа"
+
+#: network/models.py:298
+msgid "Минимальная цена в месяц"
+msgstr "Айлык минималдуу баа"
+
+#: network/serializers.py:99
+msgid "Минимальная цена не может быть выше рекомендуемой."
+msgstr "Минималдуу баа сунушталган баадан жогору болушу мүмкүн эмес."
+
+#: network/serializers.py:564
+msgid "Минимальная цена не может быть выше цены продажи."
+msgstr "Минималдуу баа сатуу баасынан жогору болушу мүмкүн эмес."
+
+#: network/models.py:34
+msgid "Минимальная цена обучения (пусто — без минимума)"
+msgstr "Окутуунун минималдуу баасы (бош — минимумсуз)"
+
+#: network/models.py:32
+msgid "Минимальная цена установки/обучения"
+msgstr "Орнотуунун/окутуунун минималдуу баасы"
+
+#: billing/models.py:369
+msgid "Можно вносить вручную"
+msgstr "Кол менен киргизүүгө болот"
+
+#: accounts/serializers.py:157
+msgid "Можно назначать только роли франчайзи, сотрудника и менеджера."
+msgstr "Франчайзинин, кызматкердин жана менеджердин ролдорун гана дайындоого болот."
+
+#: clients/deals.py:65
+msgid "На дату продажи у тарифа нет цены."
+msgstr "Сатуу күнүнө тарифтин баасы жок."
+
+#: clients/models.py:343
+msgid "На складе"
+msgstr "Кампада"
+
+#: network/models.py:154
+msgid "На этапе с"
+msgstr "Этапта (баштап)"
+
+#: accounts/models.py:35 billing/models.py:342 clients/legacy.py:25
+msgid "Название"
+msgstr "Аталышы"
+
+#: clients/models.py:206
+msgid "Назначена"
+msgstr "Дайындалды"
+
+#: billing/models.py:214
+msgid "Назначение"
+msgstr "Дайындалышы"
+
+#: training/models.py:47
+msgid "Назначение обучения"
+msgstr "Окутууну дайындоо"
+
+#: training/models.py:48
+msgid "Назначения обучения"
+msgstr "Окутууну дайындоолор"
+
+#: training/models.py:32
+msgid "Назначено"
+msgstr "Дайындалды"
+
+#: clients/branches.py:211
+msgid "Назначить можно только партнёра со статусом «Франчайзи»."
+msgstr "«Франчайзи» статусундагы өнөктөштү гана дайындоого болот."
+
+#: clients/installations.py:76
+msgid "Назначьте внедренца."
+msgstr "Ишке киргизүүчүнү дайындаңыз."
+
+#: clients/legacy.py:229
+msgid "Найдены дубли: укажите merge_into или проверьте данные."
+msgstr "Кайталанмалар табылды: merge_into көрсөтүңүз же маалыматты текшериңиз."
+
+#: billing/models.py:338
+msgid "Наличная касса"
+msgstr "Накталай каражат кассасы"
+
+#: billing/models.py:36 billing/models.py:70 network/models.py:230
+msgid "Наличные"
+msgstr "Накталай акча"
+
+#: core/settings_registry.py:30
+msgid "Напоминание об оплате за N дней до срока"
+msgstr "Төлөм мөөнөтүнө N күн калганда эскертүү"
+
+#: core/settings_registry.py:31
+msgid "Напоминание об оплате через N дней после срока"
+msgstr "Төлөм мөөнөтүнөн N күн өткөндөн кийин эскертүү"
+
+#: billing/views.py:422
+msgid "Направление"
+msgstr "Багыты"
+
+#: dashboard/services.py:86
+#, python-brace-format
+msgid "Нарушен SLA по обращениям: {n}"
+msgstr "Кайрылуулар боюнча SLA бузулду: {n}"
+
+#: clients/models.py:181 core/models.py:131
+msgid "Настройка"
+msgstr "Жөндөө"
+
+#: network/services.py:105
+#, python-brace-format
+msgid "Настройка лидов OZOK изменена: {reason}"
+msgstr "OZOK лиддеринин жөндөөсү өзгөртүлдү: {reason}"
+
+#: core/models.py:132
+msgid "Настройки"
+msgstr "Жөндөөлөр"
+
+#: billing/models.py:345
+msgid "Начальный остаток"
+msgstr "Баштапкы калдык"
+
+#: clients/models.py:191
+msgid "Начато"
+msgstr "Башталды"
+
+#: training/views.py:62
+msgid "Начать курс может сам сотрудник или владелец франчайзи."
+msgstr "Курсту кызматкердин өзү же франчайзинин ээси баштай алат."
+
+#: training/services.py:32
+msgid "Начать можно только назначенный курс."
+msgstr "Дайындалган курсту гана баштоого болот."
+
+#: tasks/services.py:32
+msgid "Начать можно только новую задачу."
+msgstr "Жаңы тапшырманы гана баштоого болот."
+
+#: billing/models.py:27
+msgid "Начисление"
+msgstr "Эсептөө"
+
+#: clients/models.py:517
+msgid "Начисление внедренцу"
+msgstr "Ишке киргизүүчүгө эсептөө"
+
+#: billing/models.py:320
+msgid "Начисление комиссии"
+msgstr "Комиссияны эсептөө"
+
+#: billing/accruals.py:166
+msgid "Начисление уже в выплате или выплачено: пересчёт невозможен, оформите корректировку."
+msgstr "Эсептөө мурунтан эле төлөмдө же төлөнгөн: кайра эсептөөгө болбойт, оңдоо киргизиңиз."
+
+#: billing/models.py:28
+msgid "Начисления"
+msgstr "Эсептөөлөр"
+
+#: clients/models.py:518
+msgid "Начисления внедренцам"
+msgstr "Ишке киргизүүчүлөргө эсептөөлөр"
+
+#: billing/models.py:321
+msgid "Начисления комиссий"
+msgstr "Комиссияларды эсептөө"
+
+#: billing/models.py:96 billing/models.py:285 billing/models.py:308
+msgid "Начислено"
+msgstr "Эсептелди"
+
+#: billing/models.py:105
+msgid "Начислено, сом"
+msgstr "Эсептелди, сом"
+
+#: clients/models.py:91
+msgid "Начислять комиссию партнёру"
+msgstr "Өнөктөшкө комиссия эсептөө"
+
+#: clients/models.py:401
+msgid "Не оплачено"
+msgstr "Төлөнгөн жок"
+
+#: training/models.py:35
+msgid "Не пройдено"
+msgstr "Өтпөдү"
+
+#: integrations/models.py:14
+msgid "Не распознано"
+msgstr "Таанылган жок"
+
+#: network/models.py:121
+msgid "Не сдал"
+msgstr "Тапшырган жок"
+
+#: integrations/services.py:206
+msgid "Не указан event_id или external_refund_id."
+msgstr "event_id же external_refund_id көрсөтүлгөн эмес."
+
+#: integrations/services.py:269 integrations/services.py:399
+msgid "Не указан event_id."
+msgstr "event_id көрсөтүлгөн эмес."
+
+#: clients/legacy.py:282 clients/legacy.py:328
+msgid "Не указано название."
+msgstr "Аталышы көрсөтүлгөн эмес."
+
+#: integrations/services.py:113
+msgid "Не указано поле business_name."
+msgstr "business_name талаасы көрсөтүлгөн эмес."
+
+#: integrations/services.py:45
+#, python-brace-format
+msgid "Не указано поле {name}."
+msgstr "{name} талаасы көрсөтүлгөн эмес."
+
+#: network/views.py:216
+msgid "Неверная дата closed_at."
+msgstr "closed_at күнү туура эмес."
+
+#: clients/views.py:177 clients/views.py:192
+msgid "Неверная дата effective_from."
+msgstr "effective_from күнү туура эмес."
+
+#: network/views.py:491
+msgid "Неверная дата."
+msgstr "Күнү туура эмес."
+
+#: integrations/views.py:77
+msgid "Неверная подпись."
+msgstr "Кол тамга туура эмес."
+
+#: core/settings_registry.py:62
+msgid "Неверное значение настройки."
+msgstr "Жөндөөнүн мааниси туура эмес."
+
+#: network/views.py:489
+msgid "Неверные параметры расчёта."
+msgstr "Эсептөө параметрлери туура эмес."
+
+#: accounts/serializers.py:79
+msgid "Неверный email или пароль."
+msgstr "Email же сырсөз туура эмес."
+
+#: integrations/views.py:31
+msgid "Неверный ключ, интеграция отключена или сфера неактивна."
+msgstr "Ачкыч туура эмес, интеграция өчүрүлгөн же чөйрө активдүү эмес."
+
+#: accounts/views.py:25 accounts/views.py:72 accounts/views.py:77
+msgid "Неверный код."
+msgstr "Код туура эмес."
+
+#: dashboard/analytics.py:359
+msgid "Неверный период: дата начала позже даты окончания."
+msgstr "Мезгил туура эмес: башталуу күнү аяктоо күнүнөн кийин."
+
+#: clients/views.py:365 dashboard/analytics.py:355 dashboard/analytics.py:357
+msgid "Неверный период: укажите date_from и date_to в формате YYYY-MM-DD."
+msgstr "Мезгил туура эмес: date_from жана date_to'ну YYYY-MM-DD форматында көрсөтүңүз."
+
+#: core/serializers.py:15
+msgid "Неверный тип значения."
+msgstr "Маанинин түрү туура эмес."
+
+#: core/models.py:114 planning/serializers.py:14
+msgid "Неверный формат месяца, нужен YYYY-MM."
+msgstr "Айдын форматы туура эмес, YYYY-MM керек."
+
+#: network/partners.py:83
+msgid "Недопустимое значение."
+msgstr "Жараксыз маани."
+
+#: quality/services.py:37
+msgid "Недопустимый переход статуса обращения."
+msgstr "Кайрылуунун статусун мындай өзгөртүүгө болбойт."
+
+#: clients/installations.py:74
+msgid "Недопустимый переход статуса установки."
+msgstr "Орнотуунун статусун мындай өзгөртүүгө болбойт."
+
+#: network/views.py:198
+msgid "Недопустимый статус возврата."
+msgstr "Кайтаруунун статусу жараксыз."
+
+#: billing/cash.py:203
+#, python-brace-format
+msgid "Недостаточно средств на счёте «{name}»: остаток уйдёт в минус."
+msgstr "«{name}» эсебинде каражат жетишсиз: калдык терс болуп калат."
+
+#: core/settings_registry.py:99 core/views.py:37
+msgid "Неизвестная настройка."
+msgstr "Белгисиз жөндөө."
+
+#: accounts/serializers.py:113
+msgid "Неизвестная роль."
+msgstr "Белгисиз роль."
+
+#: billing/serializers.py:91
+msgid "Неизвестная статья поступлений кассы."
+msgstr "Кассанын кирешелер беренеси белгисиз."
+
+#: leads/serializers.py:26
+msgid "Неизвестная сфера: укажите код сферы, package:<id>, help или пусто."
+msgstr "Чөйрө белгисиз: чөйрөнүн кодун, package:<id>, help көрсөтүңүз же бош калтырыңыз."
+
+#: network/services.py:23
+msgid "Неизвестная схема оплаты."
+msgstr "Төлөм схемасы белгисиз."
+
+#: core/access.py:202
+msgid "Неизвестное особое право."
+msgstr "Белгисиз өзгөчө укук."
+
+#: network/partners.py:79
+msgid "Неизвестное поле истории."
+msgstr "Тарыхтын талаасы белгисиз."
+
+#: accounts/serializers.py:121
+msgid "Неизвестные ключи: "
+msgstr "Белгисиз ачкычтар: "
+
+#: network/views.py:482
+msgid "Неизвестный вид продажи."
+msgstr "Сатуунун түрү белгисиз."
+
+#: clients/deals.py:67
+msgid "Неизвестный вид строки."
+msgstr "Саптын түрү белгисиз."
+
+#: network/serializers.py:631
+msgid "Неизвестный источник лида."
+msgstr "Лиддин булагы белгисиз."
+
+#: billing/payments.py:100
+msgid "Неизвестный источник оплаты."
+msgstr "Төлөмдүн булагы белгисиз."
+
+#: leads/services.py:169
+msgid "Неизвестный источник."
+msgstr "Булак белгисиз."
+
+#: clients/installations.py:70
+msgid "Неизвестный статус установки."
+msgstr "Орнотуунун статусу белгисиз."
+
+#: quality/services.py:35
+msgid "Неизвестный статус."
+msgstr "Статус белгисиз."
+
+#: leads/services.py:120
+msgid "Неизвестный тип бизнеса."
+msgstr "Бизнестин түрү белгисиз."
+
+#: accounts/serializers.py:235
+msgid "Неизвестный тип пользователя."
+msgstr "Колдонуучунун түрү белгисиз."
+
+#: integrations/services.py:236
+#, python-brace-format
+msgid "Неизвестный тип события «{event_type}»."
+msgstr "«{event_type}» окуясынын түрү белгисиз."
+
+#: integrations/services.py:373
+#, python-brace-format
+msgid "Неизвестный тип события «{v}»."
+msgstr "«{v}» окуясынын түрү белгисиз."
+
+#: clients/serializers.py:171 clients/services.py:281
+msgid "Неизвестный этап внедрения."
+msgstr "Ишке киргизүү этабы белгисиз."
+
+#: network/partners.py:126
+msgid "Неизвестный этап воронки."
+msgstr "Воронканын этабы белгисиз."
+
+#: clients/legacy.py:60
+#, python-brace-format
+msgid "Некорректная дата «{field}»: {s}."
+msgstr "«{field}» күнү туура эмес: {s}."
+
+#: integrations/services.py:59
+#, python-brace-format
+msgid "Некорректная дата в поле {name}."
+msgstr "{name} талаасындагы күн туура эмес."
+
+#: integrations/services.py:77
+msgid "Некорректная дата и время в поле paid_at."
+msgstr "paid_at талаасындагы күн жана убакыт туура эмес."
+
+#: billing/payments.py:47
+msgid "Некорректная дата оплаты (paid_at)."
+msgstr "Төлөм күнү (paid_at) туура эмес."
+
+#: clients/deals.py:28
+msgid "Некорректная скидка."
+msgstr "Арзандатуу туура эмес."
+
+#: integrations/services.py:85
+#, python-brace-format
+msgid "Некорректная сумма в поле {name}."
+msgstr "{name} талаасындагы сумма туура эмес."
+
+#: billing/payments.py:284
+msgid "Некорректная сумма или дата."
+msgstr "Сумма же күн туура эмес."
+
+#: clients/legacy.py:91
+msgid "Некорректная цена в месяц."
+msgstr "Айлык баа туура эмес."
+
+#: integrations/services.py:143
+msgid "Некорректное количество месяцев."
+msgstr "Айлардын саны туура эмес."
+
+#: core/access.py:246
+#, python-brace-format
+msgid "Нельзя выдать особое право «{a}»: оно выходит за ваши права."
+msgstr "«{a}» өзгөчө укугун берүүгө болбойт: ал сиздин укуктарыңыздан ашат."
+
+#: core/access.py:241
+#, python-brace-format
+msgid "Нельзя выдать права на «{r}» выше собственных."
+msgstr "«{r}» боюнча өзүңүздүкүнөн жогору укуктарды берүүгө болбойт."
+
+#: accounts/serializers.py:193
+msgid "Нельзя деактивировать самого себя."
+msgstr "Өзүңүздү өчүрүүгө болбойт."
+
+#: accounts/serializers.py:195
+msgid "Нельзя изменить собственную роль."
+msgstr "Өз ролуңузду өзгөртүүгө болбойт."
+
+#: core/access.py:259
+msgid "Нельзя изменять Super Admin."
+msgstr "Super Admin'ди өзгөртүүгө болбойт."
+
+#: core/access.py:256
+msgid "Нельзя изменять или отключать владельца партнёра."
+msgstr "Өнөктөштүн ээсин өзгөртүүгө же өчүрүүгө болбойт."
+
+#: accounts/serializers.py:174
+msgid "Нельзя менять собственные права."
+msgstr "Өз укуктарыңызды өзгөртүүгө болбойт."
+
+#: core/access.py:188
+msgid "Нельзя отключить или понизить последнего Super Admin."
+msgstr "Акыркы Super Admin'ди өчүрүүгө же төмөндөтүүгө болбойт."
+
+#: network/closure.py:47
+msgid "Нельзя передать клиентов самому себе."
+msgstr "Кардарларды өзүңүзгө өткөрүүгө болбойт."
+
+#: accounts/serializers.py:237
+msgid "Нельзя создать роль на основе владельца"
+msgstr "Ээсинин негизинде роль түзүүгө болбойт"
+
+#: billing/cash.py:59
+msgid "Нельзя сторнировать сторнирующую проводку."
+msgstr "Сторнолоочу жазууну сторнолоого болбойт."
+
+#: clients/views.py:88
+msgid "Нельзя удалить клиента с продажами или аккаунтами в продуктах. Деактивируйте его: is_active=false."
+msgstr "Сатуулары же продуктулардагы аккаунттары бар кардарды өчүрүүгө болбойт. Аны өчүрүңүз: is_active=false."
+
+#: accounts/views.py:248
+msgid "Нельзя удалить самого себя."
+msgstr "Өзүңүздү өчүрүүгө болбойт."
+
+#: network/views.py:52
+msgid "Нельзя удалить сферу, которая используется в договорах, продажах или клиентах. Отключите её (is_active=false)."
+msgstr "Келишимдерде, сатууларда же кардарларда колдонулган чөйрөнү өчүрүүгө болбойт. Аны өчүрүңүз (is_active=false)."
+
+#: core/viewsets.py:35
+msgid "Нельзя удалить: на объект есть ссылки в других данных."
+msgstr "Өчүрүүгө болбойт: объектке башка маалыматтардан шилтемелер бар."
+
+#: clients/models.py:136
+msgid "Нет активности в CRM"
+msgstr "CRMде активдүүлүк жок"
+
+#: clients/branches.py:102
+msgid "Нет внедренца филиала на дату оплаты."
+msgstr "Төлөм күнүнө филиалдын ишке киргизүүчүсү жок."
+
+#: clients/services.py:194
+#, python-brace-format
+msgid "Нет действующего договора с продуктом «{name}»: вознаграждение не начислено."
+msgstr "«{name}» продукту менен күчүндөгү келишим жок: сыйакы эсептелген жок."
+
+#: billing/payments.py:288
+msgid "Нет идентификатора операции."
+msgstr "Операциянын идентификатору жок."
+
+#: billing/payouts.py:39
+msgid "Нет начислений к выплате за период."
+msgstr "Мезгил боюнча төлөөгө эсептөөлөр жок."
+
+#: clients/models.py:135
+msgid "Нет ответа партнёра"
+msgstr "Өнөктөштөн жооп жок"
+
+#: clients/services.py:197
+msgid "Нет подходящего правила вознаграждения: доход франчайзи не начислен."
+msgstr "Тийиштүү сыйакы эрежеси жок: франчайзинин кирешеси эсептелген жок."
+
+#: clients/services.py:181
+msgid "Нет получателя комиссии: начисление не создаётся."
+msgstr "Комиссияны алуучу жок: эсептөө түзүлбөйт."
+
+#: integrations/simulator.py:29
+msgid "Нет франчайзи с кодом партнёра для тестового события."
+msgstr "Сыноо окуясы үчүн өнөктөш коду бар франчайзи жок."
+
+#: core/models.py:148
+msgid "Неудачный вход"
+msgstr "Ийгиликсиз кирүү"
+
+#: quality/models.py:15 tasks/models.py:11
+msgid "Низкий"
+msgstr "Төмөн"
+
+#: leads/models.py:36 tasks/models.py:16
+msgid "Новая"
+msgstr "Жаңы"
+
+#: network/views.py:463
+#, python-brace-format
+msgid "Новая версия правила №{pk}: {reason}"
+msgstr "№{pk} эрежесинин жаңы версиясы: {reason}"
+
+#: network/models.py:108
+msgid "Новая заявка"
+msgstr "Жаңы өтүнмө"
+
+#: network/commission.py:152
+msgid "Новая цена должна действовать позже всех существующих записей истории."
+msgstr "Жаңы баа тарыхтагы бардык жазуулардан кийин күчүнө кириши керек."
+
+#: accounts/views.py:185
+msgid "Новый пароль должен отличаться от текущего."
+msgstr "Жаңы сырсөз учурдагыдан айырмаланышы керек."
+
+#: network/models.py:241
+msgid "Номер"
+msgstr "Номери"
+
+#: clients/models.py:398
+msgid "Номер договора"
+msgstr "Келишимдин номери"
+
+#: clients/models.py:211
+msgid "Нужно повторить"
+msgstr "Кайталоо керек"
+
+#: accounts/models.py:43
+msgid "Область видимости"
+msgstr "Көрүнүү чөйрөсү"
+
+#: core/access.py:204
+msgid "Область: all, own_region, own_partners или assigned."
+msgstr "Чөйрө: all, own_region, own_partners же assigned."
+
+#: clients/models.py:288 clients/models.py:431 clients/reports.py:15
+msgid "Оборудование"
+msgstr "Жабдуу"
+
+#: network/views.py:394
+msgid "Оборудование есть в продажах. Отключите его (is_active=false)."
+msgstr "Жабдуу сатууларда бар. Аны өчүрүңүз (is_active=false)."
+
+#: clients/deals.py:51 clients/serializers.py:244
+msgid "Оборудование отключено."
+msgstr "Жабдуу өчүрүлгөн."
+
+#: clients/serializers.py:242
+msgid "Оборудование указывается только для продажи оборудования."
+msgstr "Жабдуу жабдууну сатуу үчүн гана көрсөтүлөт."
+
+#: integrations/models.py:12
+msgid "Обработано"
+msgstr "Иштелди"
+
+#: quality/models.py:40
+msgid "Обращение"
+msgstr "Кайрылуу"
+
+#: quality/models.py:41
+msgid "Обращения"
+msgstr "Кайрылуулар"
+
+#: clients/models.py:182 clients/models.py:287 clients/models.py:430
+msgid "Обучение"
+msgstr "Окутуу"
+
+#: network/models.py:371
+msgid "Обучение (отдельно от установки)"
+msgstr "Окутуу (орнотуудан өзүнчө)"
+
+#: network/models.py:31
+msgid "Обучение (рекомендуемая)"
+msgstr "Окутуу (сунушталган)"
+
+#: training/services.py:15
+msgid "Обучение назначается сотрудникам франчайзи."
+msgstr "Окутуу франчайзинин кызматкерлерине дайындалат."
+
+#: clients/installations.py:81
+msgid "Обучение нужно повторить: завершение невозможно."
+msgstr "Окутууну кайталоо керек: аяктоого болбойт."
+
+#: clients/models.py:386
+msgid "Общая скидка, %"
+msgstr "Жалпы арзандатуу, %"
+
+#: clients/models.py:387
+msgid "Общая скидка, сумма"
+msgstr "Жалпы арзандатуу, сумма"
+
+#: clients/legacy.py:226
+msgid "Объединить с этим клиентом нельзя: он не найден среди дублей или не подходит."
+msgstr "Бул кардар менен бириктирүүгө болбойт: ал кайталанмалардын арасынан табылган жок же ылайыксыз."
+
+#: core/serializers.py:14
+msgid "Объект не найден."
+msgstr "Объект табылган жок."
+
+#: core/serializers.py:36
+msgid "Объект принадлежит другому франчайзи."
+msgstr "Объект башка франчайзиге таандык."
+
+#: quality/models.py:16 tasks/models.py:12
+msgid "Обычный"
+msgstr "Кадимки"
+
+#: core/serializers.py:13
+msgid "Обязательное поле."
+msgstr "Милдеттүү талаа."
+
+#: clients/models.py:238
+msgid "Ограничена"
+msgstr "Чектелген"
+
+#: core/settings_registry.py:26
+msgid "Ограничение подписки через N дней просрочки (по умолчанию)"
+msgstr "Мөөнөтү N күн өткөндөн кийин жазылууну чектөө (демейки)"
+
+#: network/models.py:304
+msgid "Ограничение через N дней (пусто — как у продукта)"
+msgstr "N күндөн кийин чектөө (бош — продуктудагыдай)"
+
+#: network/models.py:40
+msgid "Ограничение через N дней просрочки (пусто — из настроек)"
+msgstr "Мөөнөтү N күн өткөндөн кийин чектөө (бош — жөндөөлөрдөн)"
+
+#: core/models.py:184
+msgid "Одобрен"
+msgstr "Жактырылды"
+
+#: core/models.py:150
+msgid "Одобрение"
+msgstr "Жактыруу"
+
+#: leads/services.py:198
+#, python-brace-format
+msgid "Одобрено: {field} → {new_value}"
+msgstr "Жактырылды: {field} → {new_value}"
+
+#: core/settings_registry.py:153
+msgid "Одобрять могут только роли OZOK: "
+msgstr "Жактырууну OZOK ролдору гана жасай алат: "
+
+#: clients/models.py:64 clients/models.py:496 core/models.py:183
+msgid "Ожидает"
+msgstr "Күтүүдө"
+
+#: clients/models.py:207
+msgid "Ожидает акта"
+msgstr "Актыны күтүүдө"
+
+#: clients/models.py:234
+msgid "Ожидает оплаты"
+msgstr "Төлөмдү күтүүдө"
+
+#: clients/models.py:373
+msgid "Ожидает согласования"
+msgstr "Макулдашууну күтүүдө"
+
+#: accounts/serializers.py:118
+msgid "Ожидается объект."
+msgstr "Объект күтүлүүдө."
+
+#: core/exceptions.py:10
+msgid "Операция невозможна."
+msgstr "Операция мүмкүн эмес."
+
+#: accounts/models.py:37 billing/models.py:24 network/models.py:23
+msgid "Описание"
+msgstr "Сүрөттөмө"
+
+#: clients/branches.py:209
+msgid "Опишите основание переназначения."
+msgstr "Кайра дайындоонун негиздемесин сүрөттөңүз."
+
+#: clients/models.py:400
+msgid "Оплата"
+msgstr "Төлөм"
+
+#: integrations/services.py:356
+#, python-brace-format
+msgid "Оплата Элкюар {op_id} не найдена: возврат не к чему привязать."
+msgstr "Элкюар {op_id} төлөмү табылган жок: кайтарууну байлоого эч нерсе жок."
+
+#: billing/models.py:223 billing/payments.py:135
+msgid "Оплата абонплаты"
+msgstr "Абоненттик төлөм"
+
+#: billing/cash.py:181
+msgid "Оплата внедренцу"
+msgstr "Ишке киргизүүчүгө төлөм"
+
+#: integrations/services.py:181
+msgid "Оплата из продукта"
+msgstr "Продуктудан төлөм"
+
+#: network/models.py:232
+msgid "Оплата с каждой продажи"
+msgstr "Ар бир сатуудан төлөм"
+
+#: billing/payments.py:112
+msgid "Оплата с таким идентификатором операции уже есть."
+msgstr "Мындай операция идентификатору бар төлөм мурунтан эле бар."
+
+#: billing/payments.py:200
+msgid "Оплата уже отменена."
+msgstr "Төлөм мурунтан эле жокко чыгарылган."
+
+#: billing/models.py:224
+msgid "Оплаты абонплаты"
+msgstr "Абоненттик төлөмдөр"
+
+#: network/partners.py:162
+#, python-brace-format
+msgid "Оплаченная продажа №{v}"
+msgstr "Төлөнгөн сатуу №{v}"
+
+#: clients/models.py:402 leads/models.py:41
+msgid "Оплачено"
+msgstr "Төлөндү"
+
+#: clients/models.py:305
+msgid "Оплачено (сумма продажи)"
+msgstr "Төлөндү (сатуунун суммасы)"
+
+#: clients/legacy.py:95 clients/models.py:248 clients/models.py:346
+msgid "Оплачено до"
+msgstr "Төлөнгөн мөөнөтү"
+
+#: leads/services.py:132
+msgid "Оплачено: клиент создан"
+msgstr "Төлөндү: кардар түзүлдү"
+
+#: billing/models.py:51
+msgid "Оплачиваемое начисление"
+msgstr "Төлөнө турган эсептөө"
+
+#: clients/models.py:13
+msgid "Опт"
+msgstr "Дүң"
+
+#: billing/accruals.py:136
+msgid "Освободить можно только удержанное начисление."
+msgstr "Кармалган эсептөөнү гана бошотууга болот."
+
+#: billing/accruals.py:138
+msgid "Освобождено OZOK"
+msgstr "OZOK бошотту"
+
+#: network/models.py:391
+msgid "Основание"
+msgstr "Негиздеме"
+
+#: network/models.py:262
+msgid "Основание скидки"
+msgstr "Арзандатуунун негиздемеси"
+
+#: clients/legacy.py:157
+msgid "Основной"
+msgstr "Негизги"
+
+#: clients/models.py:170
+msgid "Основной контакт"
+msgstr "Негизги байланыш"
+
+#: clients/models.py:88
+msgid "Основной филиал"
+msgstr "Негизги филиал"
+
+#: accounts/models.py:42
+msgid "Особые права"
+msgstr "Өзгөчө укуктар"
+
+#: billing/models.py:346
+msgid "Остаток на дату"
+msgstr "Күнүнө калдык"
+
+#: billing/views.py:418
+msgid "Остаток на конец"
+msgstr "Аягына калдык"
+
+#: billing/views.py:418
+msgid "Остаток на начало"
+msgstr "Башына калдык"
+
+#: network/services.py:149
+#, python-brace-format
+msgid "Остаток франшизы по договору {number} (погашается удержаниями из дохода)"
+msgstr "{number} келишими боюнча франшизанын калдыгы (кирешеден кармоо менен жабылат)"
+
+#: network/services.py:121
+msgid "Остаток франшизы погашается удержаниями из дохода: укажите удержание больше 0%."
+msgstr "Франшизанын калдыгы кирешеден кармоо менен жабылат: кармоону 0%дан жогору көрсөтүңүз."
+
+#: network/models.py:380
+msgid "От оплаченного"
+msgstr "Төлөнгөндөн"
+
+#: network/models.py:381
+msgid "От прайсовой суммы"
+msgstr "Прайс суммасынан"
+
+#: quality/services.py:13
+msgid "Ответ на заявку в течение 24 часов"
+msgstr "Өтүнмөгө 24 сааттын ичинде жооп берүү"
+
+#: clients/models.py:131
+msgid "Ответственный"
+msgstr "Жооптуу"
+
+#: network/models.py:149
+msgid "Ответственный OZOK"
+msgstr "OZOK жооптуусу"
+
+#: leads/models.py:61
+msgid "Ответственный за внедрение"
+msgstr "Ишке киргизүүгө жооптуу"
+
+#: leads/models.py:42
+msgid "Отказ"
+msgstr "Баш тартуу"
+
+#: leads/services.py:144
+#, python-brace-format
+msgid "Отказ: {lost_reason}"
+msgstr "Баш тартуу: {lost_reason}"
+
+#: tasks/models.py:19
+msgid "Отклонена"
+msgstr "Четке кагылды"
+
+#: core/models.py:151
+msgid "Отклонение"
+msgstr "Четке кагуу"
+
+#: clients/deals.py:483
+#, python-brace-format
+msgid "Отклонено OZOK: {v}"
+msgstr "OZOK четке какты: {v}"
+
+#: tasks/services.py:41
+msgid "Отклонить можно новую задачу или задачу в работе."
+msgstr "Жаңы тапшырманы же иштеп жаткан тапшырманы четке кагууга болот."
+
+#: core/models.py:185
+msgid "Отклонён"
+msgstr "Четке кагылды"
+
+#: accounts/views.py:286
+msgid "Отключение сотрудника"
+msgstr "Кызматкерди өчүрүү"
+
+#: quality/models.py:21
+msgid "Открыто"
+msgstr "Ачык"
+
+#: core/models.py:145
+msgid "Отмена"
+msgstr "Жокко чыгаруу"
+
+#: billing/accruals.py:128
+#, python-brace-format
+msgid "Отмена оплаты: {reason}"
+msgstr "Төлөмдү жокко чыгаруу: {reason}"
+
+#: clients/deals.py:437 clients/deals.py:442 clients/deals.py:457
+#, python-brace-format
+msgid "Отмена продажи №{pk}: {reason}"
+msgstr "№{pk} сатууну жокко чыгаруу: {reason}"
+
+#: billing/models.py:256 clients/models.py:208 clients/models.py:375
+msgid "Отменена"
+msgstr "Жокко чыгарылды"
+
+#: billing/models.py:99 billing/models.py:288 clients/models.py:184
+msgid "Отменено"
+msgstr "Жокко чыгарылды"
+
+#: tasks/services.py:46
+msgid "Отменить можно только активную задачу."
+msgstr "Активдүү тапшырманы гана жокко чыгарууга болот."
+
+#: billing/accruals.py:150
+msgid "Отменить можно только удержанное начисление."
+msgstr "Кармалган эсептөөнү гана жокко чыгарууга болот."
+
+#: billing/models.py:42 billing/models.py:192
+msgid "Отменён"
+msgstr "Жокко чыгарылды"
+
+#: core/viewsets.py:101
+msgid "Отменённую запись изменять нельзя."
+msgstr "Жокко чыгарылган жазууну өзгөртүүгө болбойт."
+
+#: clients/deals.py:236
+msgid "Отметить оплату можно только у подтверждённой сделки."
+msgstr "Төлөмдү ырасталган келишимде гана белгилөөгө болот."
+
+#: clients/deals.py:244 clients/models.py:403
+msgid "Отмечена оплаченной вручную"
+msgstr "Кол менен төлөндү деп белгиленди"
+
+#: quality/services.py:17
+msgid "Отчётность сдаётся вовремя"
+msgstr "Отчеттуулук өз убагында тапшырылат"
+
+#: leads/models.py:27
+msgid "Офлайн"
+msgstr "Офлайн"
+
+#: quality/services.py:50
+msgid "Оценить можно только решённое или закрытое обращение."
+msgstr "Чечилген же жабылган кайрылууну гана баалоого болот."
+
+#: quality/services.py:52
+msgid "Оценка должна быть целым числом от 1 до 5."
+msgstr "Баа 1ден 5ке чейинки бүтүн сан болушу керек."
+
+#: clients/models.py:212
+msgid "Оценка клиента (1–5)"
+msgstr "Кардардын баасы (1–5)"
+
+#: clients/installations.py:168
+msgid "Оценка клиента — от 1 до 5."
+msgstr "Кардардын баасы — 1ден 5ке чейин."
+
+#: quality/serializers.py:48
+msgid "Оценка — целое число от 1 до 5."
+msgstr "Баа — 1ден 5ке чейинки бүтүн сан."
+
+#: billing/models.py:194 integrations/models.py:15 integrations/models.py:25
+msgid "Ошибка"
+msgstr "Ката"
+
+#: network/models.py:85 network/models.py:246
+msgid "Пакет"
+msgstr "Пакет"
+
+#: network/views.py:310
+msgid "Пакет не найден."
+msgstr "Пакет табылган жок."
+
+#: network/serializers.py:434 network/services.py:255
+msgid "Пакет отключён."
+msgstr "Пакет өчүрүлгөн."
+
+#: network/models.py:86
+msgid "Пакеты"
+msgstr "Пакеттер"
+
+#: accounts/views.py:195
+msgid "Пароль изменён."
+msgstr "Сырсөз өзгөртүлдү."
+
+#: clients/models.py:19 network/models.py:168
+msgid "Партнёр"
+msgstr "Өнөктөш"
+
+#: clients/models.py:380
+msgid "Партнёр (пусто — продажа OZOK)"
+msgstr "Өнөктөш (бош — OZOK сатуусу)"
+
+#: network/views.py:324
+msgid "Партнёр ещё не дошёл до этапа «менеджер»: договор активирует только Super Admin с причиной (override_reason)."
+msgstr "Өнөктөш али «менеджер» этабына жете элек: келишимди Super Admin гана себебин (override_reason) көрсөтүп активдештирет."
+
+#: network/views.py:192
+msgid "Партнёр не закрыт."
+msgstr "Өнөктөш жабылган эмес."
+
+#: clients/branches.py:106 dashboard/views.py:51 leads/services.py:173
+msgid "Партнёр не найден."
+msgstr "Өнөктөш табылган жок."
+
+#: clients/services.py:187
+msgid "Партнёр приостановлен: комиссия удержана (on_hold) до решения OZOK."
+msgstr "Өнөктөш токтотулган: комиссия OZOK чечимине чейин кармалды (on_hold)."
+
+#: billing/accruals.py:67
+msgid "Партнёр приостановлен: начисление удержано до решения OZOK."
+msgstr "Өнөктөш токтотулган: эсептөө OZOK чечимине чейин кармалды."
+
+#: network/closure.py:42
+msgid "Партнёр уже закрыт."
+msgstr "Өнөктөш мурунтан эле жабылган."
+
+#: core/access.py:234
+msgid "Партнёру можно выдавать только партнёрские роли."
+msgstr "Өнөктөшкө өнөктөштүк ролдорду гана берүүгө болот."
+
+#: network/models.py:169
+msgid "Партнёры"
+msgstr "Өнөктөштөр"
+
+#: network/models.py:135
+msgid "Паспорт (защищённое)"
+msgstr "Паспорт (корголгон)"
+
+#: clients/models.py:31
+msgid "Первичный партнёр (привёл)"
+msgstr "Баштапкы өнөктөш (алып келди)"
+
+#: billing/models.py:388
+msgid "Перевод"
+msgstr "Которуу"
+
+#: accounts/models.py:36 accounts/models.py:38 billing/models.py:146
+msgid "Перевод (кыргызча)"
+msgstr "Котормо (кыргызча)"
+
+#: billing/views.py:201 clients/legacy_views.py:24
+msgid "Передайте CSV файлом (file) или текстом (csv)."
+msgstr "CSV'ни файл (file) же текст (csv) катары жөнөтүңүз."
+
+#: clients/views.py:414
+msgid "Передайте items: список пунктов."
+msgstr "items жөнөтүңүз: пункттардын тизмеси."
+
+#: network/closure.py:101
+#, python-brace-format
+msgid "Передано партнёру «{name}»: уход «{name1}»"
+msgstr "«{name}» өнөктөшүнө өткөрүлдү: «{name1}» кетти"
+
+#: network/closure.py:110
+#, python-brace-format
+msgid "Передано сотруднику OZOK: уход «{name}»"
+msgstr "OZOK кызматкерине өткөрүлдү: «{name}» кетти"
+
+#: leads/services.py:97
+msgid "Перейти к демо можно только из статуса «В работе»."
+msgstr "Демого «Иште» статусунан гана өтүүгө болот."
+
+#: clients/branches.py:74
+msgid "Переключатель действует только для клиентов OZOK (существующих и прямых)."
+msgstr "Которгуч OZOK кардарлары үчүн гана иштейт (учурдагы жана түз)."
+
+#: leads/models.py:101
+msgid "Переназначение"
+msgstr "Кайра дайындоо"
+
+#: clients/services.py:50
+msgid "Пересчёт продажи"
+msgstr "Сатууну кайра эсептөө"
+
+#: billing/models.py:259
+msgid "Период (1-е число месяца)"
+msgstr "Мезгил (айдын 1-күнү)"
+
+#: billing/models.py:209
+msgid "Период по"
+msgstr "Мезгил (чейин)"
+
+#: billing/models.py:208
+msgid "Период с"
+msgstr "Мезгил (баштап)"
+
+#: clients/models.py:192
+msgid "План запуска"
+msgstr "Ишке киргизүү планы"
+
+#: planning/serializers.py:61
+msgid "План на этот месяц у франчайзи уже задан."
+msgstr "Франчайзинин бул айга планы мурунтан эле коюлган."
+
+#: planning/models.py:14
+msgid "План продаж"
+msgstr "Сатуу планы"
+
+#: planning/models.py:10
+msgid "План: новые клиенты"
+msgstr "План: жаңы кардарлар"
+
+#: planning/models.py:11
+msgid "План: сумма продаж"
+msgstr "План: сатуунун суммасы"
+
+#: planning/models.py:15
+msgid "Планы продаж"
+msgstr "Сатуу пландары"
+
+#: network/models.py:214 network/models.py:256
+msgid "Платежей рассрочки"
+msgstr "Бөлүп төлөө төлөмдөрү"
+
+#: billing/models.py:62
+msgid "Платежи франчайзи"
+msgstr "Франчайзинин төлөмдөрү"
+
+#: integrations/services.py:214
+#, python-brace-format
+msgid "Платёж {ext_pay} не найден, возврат не к чему привязать."
+msgstr "{ext_pay} төлөмү табылган жок, кайтарууну байлоого эч нерсе жок."
+
+#: billing/serializers.py:84
+#, python-brace-format
+msgid "Платёж превышает остаток по договору ({remaining} сом). Переплату (аванс) может провести только Super Admin с флагом allow_credit."
+msgstr "Төлөм келишим боюнча калдыктан ашат ({remaining} сом). Ашыкча төлөмдү (аванс) allow_credit желеги менен Super Admin гана жүргүзө алат."
+
+#: network/services.py:146
+#, python-brace-format
+msgid "Платёж рассрочки {i}/{v} по договору {number}"
+msgstr "{number} келишими боюнча {i}/{v} бөлүп төлөө төлөмү"
+
+#: billing/cash.py:133 billing/models.py:61
+msgid "Платёж франчайзи"
+msgstr "Франчайзинин төлөмү"
+
+#: clients/models.py:311
+msgid "По прайсу"
+msgstr "Прайс боюнча"
+
+#: clients/services.py:373
+msgid "По продаже есть возвраты: сначала отмените их."
+msgstr "Сатуу боюнча кайтаруулар бар: адегенде аларды жокко чыгарыңыз."
+
+#: billing/views.py:185
+msgid "По этой оплате возврат невозможен."
+msgstr "Бул төлөм боюнча кайтаруу мүмкүн эмес."
+
+#: clients/legacy.py:301
+msgid "Повтор в этом же файле."
+msgstr "Ушул эле файлда кайталануу."
+
+#: integrations/services.py:415
+msgid "Повторить можно только событие со статусом «Ошибка» или «Не распознано»."
+msgstr "«Ката» же «Таанылган жок» статусундагы окуяны гана кайталоого болот."
+
+#: billing/models.py:310
+msgid "Погашено ручными выплатами (до пакетов выплат)"
+msgstr "Кол менен төлөмдөр менен жабылды (төлөм пакеттерине чейин)"
+
+#: billing/legacy.py:56
+msgid "Погашено старыми ручными выплатами"
+msgstr "Эски кол менен төлөмдөр менен жабылды"
+
+#: clients/models.py:253
+msgid "Подключён"
+msgstr "Туташкан"
+
+#: clients/models.py:260
+msgid "Подписка"
+msgstr "Жазылуу"
+
+#: billing/payments.py:106
+msgid "Подписка относится к другому филиалу."
+msgstr "Жазылуу башка филиалга тиешелүү."
+
+#: clients/legacy.py:142
+msgid "Подписка по этой сфере уже есть."
+msgstr "Бул чөйрө боюнча жазылуу мурунтан эле бар."
+
+#: clients/views.py:134
+msgid "Подписка уже закрыта."
+msgstr "Жазылуу мурунтан эле жабылган."
+
+#: clients/models.py:261
+msgid "Подписки"
+msgstr "Жазылуулар"
+
+#: clients/models.py:215
+msgid "Подтвердил (ФИО клиента)"
+msgstr "Ырастады (кардардын аты-жөнү)"
+
+#: clients/deals.py:258
+msgid "Подтвердить можно только черновик."
+msgstr "Долбоорду гана ырастоого болот."
+
+#: clients/models.py:374
+msgid "Подтверждена"
+msgstr "Ырасталды"
+
+#: billing/models.py:41 billing/models.py:191
+msgid "Подтверждён"
+msgstr "Ырасталды"
+
+#: clients/models.py:138
+msgid "Подтверждённая жалоба"
+msgstr "Ырасталган даттануу"
+
+#: clients/deals.py:453
+msgid "Подтверждённую продажу отменяет OZOK."
+msgstr "Ырасталган сатууну OZOK жокко чыгарат."
+
+#: core/models.py:190
+msgid "Поле"
+msgstr "Талаа"
+
+#: accounts/models.py:86
+msgid "Получает вознаграждение рекрутера"
+msgstr "Рекрутердин сыйакысын алат"
+
+#: accounts/models.py:109
+msgid "Пользователи"
+msgstr "Колдонуучулар"
+
+#: accounts/models.py:108
+msgid "Пользователь"
+msgstr "Колдонуучу"
+
+#: accounts/serializers.py:135
+msgid "Пользователь с таким email уже существует."
+msgstr "Мындай email менен колдонуучу мурунтан эле бар."
+
+#: clients/legacy.py:94
+msgid "Пользуется с"
+msgstr "Колдоно баштаган күнү"
+
+#: network/models.py:46 network/models.py:307 network/models.py:346
+msgid "Порядок"
+msgstr "Тартиби"
+
+#: network/models.py:50
+msgid "Последнее событие"
+msgstr "Акыркы окуя"
+
+#: billing/views.py:418
+msgid "Поступило"
+msgstr "Түштү"
+
+#: billing/models.py:361 billing/models.py:386
+msgid "Поступление"
+msgstr "Түшүү"
+
+#: billing/views.py:423
+msgid "Поступления"
+msgstr "Түшүүлөр"
+
+#: accounts/models.py:41
+msgid "Права по разделам"
+msgstr "Бөлүмдөр боюнча укуктар"
+
+#: core/access.py:265
+msgid "Права пользователя выше ваших: изменять его нельзя."
+msgstr "Колдонуучунун укуктары сиздикинен жогору: аны өзгөртүүгө болбойт."
+
+#: core/access.py:262
+#, python-brace-format
+msgid "Права пользователя на «{r}» выше ваших: изменять его нельзя."
+msgstr "Колдонуучунун «{r}» боюнча укуктары сиздикинен жогору: аны өзгөртүүгө болбойт."
+
+#: network/models.py:404
+msgid "Правила вознаграждения"
+msgstr "Сыйакы эрежелери"
+
+#: network/models.py:426
+msgid "Правила распределения установки"
+msgstr "Орнотууну бөлүштүрүү эрежелери"
+
+#: network/models.py:403
+msgid "Правило вознаграждения"
+msgstr "Сыйакы эрежеси"
+
+#: network/models.py:425
+msgid "Правило распределения установки"
+msgstr "Орнотууну бөлүштүрүү эрежеси"
+
+#: network/serializers.py:625
+#, python-brace-format
+msgid "Правило уже применялось к начислениям: ставки задним числом менять нельзя. Создайте новую версию с датой начала (POST commission-rules/{id}/new-version/)."
+msgstr "Эреже эсептөөлөргө мурунтан эле колдонулган: ставкаларды мурунку күнгө өзгөртүүгө болбойт. Баштоо күнү менен жаңы версия түзүңүз (POST commission-rules/{id}/new-version/)."
+
+#: clients/models.py:397
+msgid "Прайс на дату продажи"
+msgstr "Сатуу күнүнө прайс"
+
+#: network/models.py:249
+msgid "Прайсовая сумма"
+msgstr "Прайс суммасы"
+
+#: network/serializers.py:414
+msgid "Предложение отключено."
+msgstr "Сунуш өчүрүлгөн."
+
+#: network/models.py:220 network/models.py:261
+msgid "Предложение франшизы"
+msgstr "Франшиза сунушу"
+
+#: network/models.py:221
+msgid "Предложения франшизы"
+msgstr "Франшиза сунуштары"
+
+#: network/models.py:231
+msgid "Предоплата"
+msgstr "Алдын ала төлөм"
+
+#: network/serializers.py:381
+msgid "Предоплата — от 0 (не включая) до 100 процентов."
+msgstr "Алдын ала төлөм — 0дөн (кошпогондо) 100 пайызга чейин."
+
+#: network/models.py:81
+msgid "Предоплата, %"
+msgstr "Алдын ала төлөм, %"
+
+#: network/models.py:251
+msgid "Предоплата, % (для пресета)"
+msgstr "Алдын ала төлөм, % (пресет үчүн)"
+
+#: network/models.py:147
+msgid "Привлёк (рекрутер)"
+msgstr "Тартты (рекрутер)"
+
+#: integrations/services.py:298
+msgid "Привязать можно только нераспознанное событие."
+msgstr "Таанылбаган окуяны гана байлоого болот."
+
+#: accounts/views.py:272
+msgid "Приглашение сотрудника"
+msgstr "Кызматкерди чакыруу"
+
+#: network/serializers.py:629
+msgid "Применённое правило нельзя закрыть задним числом."
+msgstr "Колдонулган эрежени мурунку күнгө жабууга болбойт."
+
+#: network/closure.py:49
+msgid "Принимающий партнёр должен иметь статус «Франчайзи»."
+msgstr "Кабыл алуучу өнөктөштүн статусу «Франчайзи» болушу керек."
+
+#: network/views.py:220
+msgid "Принимающий партнёр не найден."
+msgstr "Кабыл алуучу өнөктөш табылган жок."
+
+#: network/views.py:222
+msgid "Принимающий сотрудник не найден."
+msgstr "Кабыл алуучу кызматкер табылган жок."
+
+#: clients/models.py:139
+msgid "Принято партнёром"
+msgstr "Өнөктөш кабыл алды"
+
+#: clients/branches.py:191
+msgid "Принято приоритетным партнёром"
+msgstr "Артыкчылыктуу өнөктөш кабыл алды"
+
+#: clients/branches.py:186
+msgid "Принять филиал может только приоритетный партнёр."
+msgstr "Филиалды артыкчылыктуу өнөктөш гана кабыл ала алат."
+
+#: quality/models.py:30 tasks/models.py:27
+msgid "Приоритет"
+msgstr "Артыкчылык"
+
+#: clients/models.py:97
+msgid "Приоритет партнёра до"
+msgstr "Өнөктөштүн артыкчылыгы (чейин)"
+
+#: clients/models.py:66 network/models.py:100 network/models.py:159
+msgid "Приостановлен"
+msgstr "Токтотулган"
+
+#: core/models.py:193 network/models.py:189
+msgid "Причина"
+msgstr "Себеби"
+
+#: leads/models.py:70
+msgid "Причина отказа"
+msgstr "Баш тартуунун себеби"
+
+#: core/models.py:79
+msgid "Причина отмены"
+msgstr "Жокко чыгаруунун себеби"
+
+#: network/models.py:161
+msgid "Причина статуса"
+msgstr "Статустун себеби"
+
+#: billing/models.py:254
+msgid "Проверена"
+msgstr "Текшерилди"
+
+#: billing/models.py:97 clients/models.py:498
+msgid "Проверено"
+msgstr "Текшерилди"
+
+#: clients/installations.py:212
+msgid "Проверить можно только начисленное."
+msgstr "Эсептелгенди гана текшерүүгө болот."
+
+#: billing/recruiters.py:91
+msgid "Проверить можно только полностью начисленное вознаграждение."
+msgstr "Толук эсептелген сыйакыны гана текшерүүгө болот."
+
+#: billing/payouts.py:53
+msgid "Проверить можно только черновик выплаты."
+msgstr "Төлөмдүн долбоорун гана текшерүүгө болот."
+
+#: quality/models.py:67
+msgid "Проверка"
+msgstr "Текшерүү"
+
+#: quality/models.py:68
+msgid "Проверки"
+msgstr "Текшерүүлөр"
+
+#: billing/payouts.py:65 clients/installations.py:222
+msgid "Проверяющий и выплачивающий должны быть разными людьми."
+msgstr "Текшерүүчү жана төлөөчү ар башка адамдар болушу керек."
+
+#: billing/recruiters.py:101
+msgid "Проверяющий и исполнитель выплаты должны быть разными сотрудниками."
+msgstr "Текшерүүчү жана төлөмдү аткаруучу ар башка кызматкерлер болушу керек."
+
+#: billing/models.py:412
+msgid "Проводка кассы"
+msgstr "Кассанын жазуусу"
+
+#: billing/cash.py:239
+msgid "Проводка уже отменена."
+msgstr "Жазуу мурунтан эле жокко чыгарылган."
+
+#: billing/models.py:413
+msgid "Проводки кассы"
+msgstr "Кассанын жазуулары"
+
+#: billing/models.py:423
+msgid "Проводки кассы не изменяются: отмена — сторнирующей проводкой."
+msgstr "Кассанын жазуулары өзгөртүлбөйт: жокко чыгаруу — сторно жазуу менен."
+
+#: billing/models.py:427
+msgid "Проводки кассы не удаляются."
+msgstr "Кассанын жазуулары өчүрүлбөйт."
+
+#: leads/models.py:31
+msgid "Программа"
+msgstr "Программа"
+
+#: clients/models.py:132
+msgid "Продавец"
+msgstr "Сатуучу"
+
+#: clients/models.py:418
+msgid "Продажа (форма)"
+msgstr "Сатуу (форма)"
+
+#: clients/models.py:360
+msgid "Продажа клиенту"
+msgstr "Кардарга сатуу"
+
+#: clients/deals.py:260
+msgid "Продажа ожидает согласования OZOK."
+msgstr "Сатуу OZOK макулдашуусун күтүүдө."
+
+#: clients/deals.py:462
+msgid "Продажа отменена"
+msgstr "Сатуу жокко чыгарылды"
+
+#: clients/deals.py:451 clients/services.py:371
+msgid "Продажа уже отменена."
+msgstr "Сатуу мурунтан эле жокко чыгарылган."
+
+#: clients/deals.py:286
+#, python-brace-format
+msgid "Продажа №{pk}"
+msgstr "Сатуу №{pk}"
+
+#: clients/models.py:419
+msgid "Продажи (формы)"
+msgstr "Сатуулар (формалар)"
+
+#: clients/views.py:312
+msgid "Продажи вносят партнёры и OZOK (Super Admin, руководитель сети)."
+msgstr "Сатууларды өнөктөштөр жана OZOK (Super Admin, тармактын жетекчиси) киргизет."
+
+#: clients/models.py:361
+msgid "Продажи клиентам"
+msgstr "Кардарларга сатуулар"
+
+#: clients/models.py:339
+msgid "Продал (партнёр)"
+msgstr "Сатты (өнөктөш)"
+
+#: clients/models.py:506
+msgid "Продано за"
+msgstr "Сатылган баасы"
+
+#: clients/models.py:290
+msgid "Продление"
+msgstr "Узартуу"
+
+#: billing/models.py:186 integrations/models.py:18 network/models.py:43
+msgid "Продукт"
+msgstr "Продукт"
+
+#: network/models.py:53
+msgid "Продукт (сфера)"
+msgstr "Продукт (чөйрө)"
+
+#: network/models.py:54
+msgid "Продукты (сферы)"
+msgstr "Продуктулар (чөйрөлөр)"
+
+#: billing/models.py:204
+msgid "Производная продажа"
+msgstr "Туунду сатуу"
+
+#: clients/models.py:211 training/models.py:34
+msgid "Пройдено"
+msgstr "Өттү"
+
+#: clients/models.py:237
+msgid "Просрочена"
+msgstr "Мөөнөтү өттү"
+
+#: clients/models.py:137
+msgid "Просрочена установка"
+msgstr "Орнотуунун мөөнөтү өттү"
+
+#: dashboard/services.py:87
+msgid "Просрочено задач"
+msgstr "Мөөнөтү өткөн тапшырмалар"
+
+#: dashboard/services.py:82
+#, python-brace-format
+msgid "Просрочка {v} сом"
+msgstr "Мөөнөтү өттү: {v} сом"
+
+#: training/models.py:17
+msgid "Проходной балл"
+msgstr "Өтүү балы"
+
+#: training/serializers.py:26
+msgid "Проходной балл — от 0 до 100."
+msgstr "Өтүү балы — 0дөн 100гө чейин."
+
+#: core/settings_registry.py:140 network/serializers.py:104
+msgid "Процент должен быть от 0 до 100."
+msgstr "Пайыз 0дөн 100гө чейин болушу керек."
+
+#: network/serializers.py:601
+msgid "Процент — от 0 до 100."
+msgstr "Пайыз — 0дөн 100гө чейин."
+
+#: billing/models.py:14 clients/models.py:291 clients/reports.py:16
+msgid "Прочее"
+msgstr "Башка"
+
+#: clients/models.py:21
+msgid "Прямая продажа OZOK"
+msgstr "OZOK түз сатуусу"
+
+#: billing/cash.py:158
+#, python-brace-format
+msgid "Прямая продажа OZOK №{id}"
+msgstr "OZOK түз сатуусу №{id}"
+
+#: clients/installations.py:110
+#, python-brace-format
+msgid "Пункта «{name}» нет в чек-листе."
+msgstr "«{name}» пункту чек-листте жок."
+
+#: clients/models.py:483
+msgid "Пункты"
+msgstr "Пункттар"
+
+#: clients/serializers.py:480
+msgid "Пункты — список строк."
+msgstr "Пункттар — саптардын тизмеси."
+
+#: integrations/views.py:55
+msgid "Пустой список событий."
+msgstr "Окуялардын тизмеси бош."
+
+#: clients/models.py:65
+msgid "Работает"
+msgstr "Иштейт"
+
+#: core/access.py:239
+#, python-brace-format
+msgid "Раздел «{r}» нельзя выдавать: доступны только партнёрские разделы."
+msgstr "«{r}» бөлүмүн берүүгө болбойт: өнөктөштүк бөлүмдөр гана жеткиликтүү."
+
+#: accounts/models.py:62
+msgid "Разработчик / внедренец"
+msgstr "Иштеп чыгуучу / ишке киргизүүчү"
+
+#: core/settings_registry.py:37
+msgid "Разрешить уход остатка счёта в минус при расходе"
+msgstr "Чыгымда эсептин калдыгынын терс болуп кетишине уруксат берүү"
+
+#: billing/models.py:11
+msgid "Рассрочка"
+msgstr "Бөлүп төлөө"
+
+#: network/services.py:64
+msgid "Рассрочка до"
+msgstr "Бөлүп төлөө (чейин)"
+
+#: network/models.py:255
+msgid "Рассрочка, сумма"
+msgstr "Бөлүп төлөө, сумма"
+
+#: billing/models.py:142 billing/models.py:362 billing/models.py:387
+msgid "Расход"
+msgstr "Чыгым"
+
+#: billing/models.py:438
+msgid "Расход OZOK"
+msgstr "OZOK чыгымы"
+
+#: billing/views.py:423
+msgid "Расходы"
+msgstr "Чыгымдар"
+
+#: billing/models.py:439
+msgid "Расходы OZOK"
+msgstr "OZOK чыгымдары"
+
+#: clients/models.py:35 clients/models.py:73 leads/models.py:55
+msgid "Регион"
+msgstr "Аймак"
+
+#: accounts/models.py:85
+msgid "Регион (для региональной техподдержки)"
+msgstr "Аймак (аймактык техникалык колдоо үчүн)"
+
+#: accounts/models.py:61
+msgid "Региональная техподдержка"
+msgstr "Аймактык техникалык колдоо"
+
+#: network/models.py:156
+msgid "Результат аттестации"
+msgstr "Аттестациянын жыйынтыгы"
+
+#: training/services.py:40
+msgid "Результат можно внести только по назначенному или начатому курсу."
+msgstr "Жыйынтыкты дайындалган же башталган курс боюнча гана киргизүүгө болот."
+
+#: clients/models.py:210
+msgid "Результат обучения"
+msgstr "Окутуунун жыйынтыгы"
+
+#: clients/installations.py:146
+msgid "Результат обучения: passed или needs_repeat."
+msgstr "Окутуунун жыйынтыгы: passed же needs_repeat."
+
+#: quality/models.py:63
+msgid "Результат, %"
+msgstr "Жыйынтык, %"
+
+#: leads/models.py:20
+msgid "Реклама OZOK"
+msgstr "OZOK жарнамасы"
+
+#: leads/models.py:21
+msgid "Реклама франчайзи"
+msgstr "Франчайзинин жарнамасы"
+
+#: billing/models.py:148
+msgid "Рекламный расход (идёт в Маркетинг/Growth)"
+msgstr "Жарнама чыгымы (Маркетинг/Growth'ка кирет)"
+
+#: leads/models.py:24
+msgid "Рекомендация"
+msgstr "Сунуш"
+
+#: network/models.py:340
+msgid "Рекомендуемая цена"
+msgstr "Сунушталган баа"
+
+#: accounts/models.py:60
+msgid "Рекрутер"
+msgstr "Рекрутер"
+
+#: quality/models.py:23
+msgid "Решено"
+msgstr "Чечилди"
+
+#: accounts/models.py:49
+msgid "Роли доступа"
+msgstr "Жетүү ролдору"
+
+#: core/settings_registry.py:36
+msgid "Роли, одобряющие скидки ниже минимума и изменения лидов"
+msgstr "Минимумдан төмөн арзандатууларды жана лиддердин өзгөрүүлөрүн жактырган ролдор"
+
+#: accounts/models.py:82
+msgid "Роль"
+msgstr "Роль"
+
+#: core/access.py:232
+msgid "Роль владельца может выдать только Super Admin."
+msgstr "Ээсинин ролун Super Admin гана бере алат."
+
+#: accounts/models.py:48 accounts/models.py:88
+msgid "Роль доступа"
+msgstr "Жетүү роли"
+
+#: accounts/views.py:218
+msgid "Роль назначена сотрудникам: сначала переназначьте их."
+msgstr "Роль кызматкерлерге дайындалган: адегенде аларды кайра дайындаңыз."
+
+#: accounts/models.py:59
+msgid "Руководитель партнёрской сети"
+msgstr "Өнөктөштүк тармактын жетекчиси"
+
+#: accounts/models.py:70
+msgid "Русский"
+msgstr "Русский"
+
+#: leads/models.py:25
+msgid "Сайт"
+msgstr "Сайт"
+
+#: accounts/views.py:310
+msgid "Сброс пароля"
+msgstr "Сырсөздү калыбына келтирүү"
+
+#: billing/models.py:217
+msgid "Сверено"
+msgstr "Салыштырылды"
+
+#: accounts/models.py:74
+msgid "Светлая"
+msgstr "Жарык"
+
+#: accounts/models.py:31
+msgid "Свои партнёры (привлечённые)"
+msgstr "Өз өнөктөштөрү (тартылгандар)"
+
+#: accounts/models.py:30
+msgid "Свой регион"
+msgstr "Өз аймагы"
+
+#: network/models.py:120
+msgid "Сдал"
+msgstr "Тапшырды"
+
+#: clients/deals.py:238
+msgid "Сделка уже оплачена."
+msgstr "Келишим мурунтан эле төлөнгөн."
+
+#: clients/models.py:337
+msgid "Серийные номера"
+msgstr "Сериялык номерлер"
+
+#: clients/serializers.py:512
+msgid "Серийные номера — список строк."
+msgstr "Сериялык номерлер — саптардын тизмеси."
+
+#: clients/serializers.py:515
+msgid "Серийных номеров больше, чем единиц оборудования."
+msgstr "Сериялык номерлер жабдуу бирдигинен көп."
+
+#: accounts/views.py:69
+msgid "Сессия входа истекла: войдите заново."
+msgstr "Кирүү сеансы бүттү: кайра кириңиз."
+
+#: billing/serializers.py:235
+msgid "Система работает только в сомах (KGS)."
+msgstr "Система сом (KGS) менен гана иштейт."
+
+#: accounts/models.py:39
+msgid "Системная"
+msgstr "Системалык"
+
+#: core/access.py:105
+msgid "Системная роль ТЗ OZOK §3"
+msgstr "OZOK ТТ §3 системалык ролу"
+
+#: accounts/views.py:216
+msgid "Системные роли редактируются, но не удаляются."
+msgstr "Системалык ролдор түзөтүлөт, бирок өчүрүлбөйт."
+
+#: clients/models.py:312
+msgid "Скидка"
+msgstr "Арзандатуу"
+
+#: clients/deals.py:26
+msgid "Скидка задаётся процентом или суммой, не обоими сразу."
+msgstr "Арзандатуу пайыз же сумма менен коюлат, экөө бир учурда эмес."
+
+#: clients/models.py:252
+msgid "Скидка клиента, %"
+msgstr "Кардардын арзандатуусу, %"
+
+#: leads/models.py:62
+msgid "Следующий контакт"
+msgstr "Кийинки байланыш"
+
+#: accounts/views.py:194
+msgid "Смена пароля пользователем"
+msgstr "Колдонуучу сырсөздү өзгөртүү"
+
+#: core/models.py:146 leads/models.py:100
+msgid "Смена статуса"
+msgstr "Статусту өзгөртүү"
+
+#: accounts/models.py:90
+msgid "Сменить пароль при входе"
+msgstr "Кирүүдө сырсөздү өзгөртүү"
+
+#: leads/services.py:108
+msgid "Сменить статус можно только у заявки в работе."
+msgstr "Статусту иште турган өтүнмөдө гана өзгөртүүгө болот."
+
+#: accounts/views.py:134
+msgid "Сначала вызовите auth/2fa/setup/."
+msgstr "Адегенде auth/2fa/setup/ чакырыңыз."
+
+#: clients/branches.py:79
+msgid "Сначала передайте филиал партнёру на сопровождение (reassign): некому начислять комиссию."
+msgstr "Адегенде филиалды коштоого өнөктөшкө өткөрүңүз (reassign): комиссия эсептей турган эч ким жок."
+
+#: network/models.py:109
+msgid "Собеседование"
+msgstr "Маек"
+
+#: integrations/services.py:259
+msgid "Событие должно быть JSON-объектом."
+msgstr "Окуя JSON-объект болушу керек."
+
+#: integrations/models.py:34
+msgid "Событие интеграции"
+msgstr "Интеграциянын окуясы"
+
+#: integrations/models.py:35
+msgid "События интеграции"
+msgstr "Интеграциянын окуялары"
+
+#: clients/legacy.py:143
+msgid "Совпадает ID продукта или лицевой счёт: сфера уже заведена."
+msgstr "Продуктудагы ID же жеке эсеп дал келет: чөйрө мурунтан эле киргизилген."
+
+#: billing/payments.py:306
+#, python-brace-format
+msgid "Совпадает с оплатой №{id} (источник {source})."
+msgstr "№{id} төлөм менен дал келет (булак {source})."
+
+#: core/models.py:143
+msgid "Создание"
+msgstr "Түзүү"
+
+#: core/models.py:59
+msgid "Создано"
+msgstr "Түзүлдү"
+
+#: leads/services.py:178
+msgid "Сотрудник OZOK не найден."
+msgstr "OZOK кызматкери табылган жок."
+
+#: accounts/serializers.py:167
+msgid "Сотрудник OZOK не привязан к партнёру."
+msgstr "OZOK кызматкери өнөктөшкө байланышкан эмес."
+
+#: accounts/views.py:293
+msgid "Сотрудник уже включён."
+msgstr "Кызматкер мурунтан эле күйгүзүлгөн."
+
+#: accounts/views.py:280
+msgid "Сотрудник уже отключён."
+msgstr "Кызматкер мурунтан эле өчүрүлгөн."
+
+#: accounts/models.py:66
+msgid "Сотрудник франчайзи"
+msgstr "Франчайзинин кызматкери"
+
+#: quality/services.py:15
+msgid "Сотрудники прошли обучение"
+msgstr "Кызматкерлер окутуудан өттү"
+
+#: network/models.py:144
+msgid "Специализация"
+msgstr "Адистик"
+
+#: network/serializers.py:690
+msgid "Список названий каналов."
+msgstr "Каналдардын аттарынын тизмеси."
+
+#: billing/models.py:55 billing/models.py:79
+msgid "Способ"
+msgstr "Ыкмасы"
+
+#: network/models.py:213 network/services.py:63
+msgid "Сразу"
+msgstr "Дароо"
+
+#: network/models.py:253
+msgid "Сразу, сумма"
+msgstr "Дароо, сумма"
+
+#: billing/models.py:23 tasks/models.py:29
+msgid "Срок"
+msgstr "Мөөнөтү"
+
+#: training/models.py:18
+msgid "Срок действия, мес."
+msgstr "Күчүндө болуу мөөнөтү, ай"
+
+#: core/settings_registry.py:21
+msgid "Срок оплаты доли OZOK по лидам OZOK, дней"
+msgstr "OZOK лиддери боюнча OZOK үлүшүн төлөө мөөнөтү, күн"
+
+#: core/settings_registry.py:22
+msgid "Срок оплаты удержаний с продаж, дней"
+msgstr "Сатуулардан кармоолорду төлөө мөөнөтү, күн"
+
+#: core/settings_registry.py:28
+msgid "Срок ответа по второму филиалу, дней"
+msgstr "Экинчи филиал боюнча жооп берүү мөөнөтү, күн"
+
+#: network/models.py:254
+msgid "Срок платежа «сразу»"
+msgstr "«Дароо» төлөмүнүн мөөнөтү"
+
+#: clients/branches.py:188
+msgid "Срок приоритета истёк: филиал назначает OZOK (reassign)."
+msgstr "Артыкчылык мөөнөтү бүттү: филиалды OZOK дайындайт (reassign)."
+
+#: core/settings_registry.py:24
+msgid "Срок реакции на заявку, часов"
+msgstr "Өтүнмөгө жооп берүү мөөнөтү, саат"
+
+#: clients/models.py:204
+msgid "Срок установки"
+msgstr "Орнотуу мөөнөтү"
+
+#: core/settings_registry.py:27
+msgid "Срок установки по умолчанию, дней"
+msgstr "Демейки орнотуу мөөнөтү, күн"
+
+#: clients/models.py:316
+msgid "Ставка вознаграждения, %"
+msgstr "Сыйакы ставкасы, %"
+
+#: clients/services.py:254
+msgid "Ставка должна быть от 0 до 100."
+msgstr "Ставка 0дөн 100гө чейин болушу керек."
+
+#: billing/models.py:302
+msgid "Ставка, %"
+msgstr "Ставка, %"
+
+#: clients/services.py:274
+msgid "Ставку нельзя менять у возврата."
+msgstr "Кайтаруунун ставкасын өзгөртүүгө болбойт."
+
+#: clients/services.py:276
+msgid "Ставку нельзя менять у продажи, по которой уже есть возврат."
+msgstr "Кайтаруусу бар сатуунун ставкасын өзгөртүүгө болбойт."
+
+#: network/models.py:97
+msgid "Стажёр"
+msgstr "Стажёр"
+
+#: clients/models.py:254
+msgid "Старт подписки"
+msgstr "Жазылуунун башталышы"
+
+#: billing/models.py:45 billing/models.py:215 clients/models.py:93
+msgid "Статус"
+msgstr "Статус"
+
+#: clients/installations.py:124
+msgid "Статус канала: pending, connected или failed."
+msgstr "Каналдын статусу: pending, connected же failed."
+
+#: leads/services.py:107
+msgid "Статус можно выбрать из: в работе, демо, КП, договор. Оплата — win, отказ — lose."
+msgstr "Статусту тандоого болот: иште, демо, КС, келишим. Төлөм — win, баш тартуу — lose."
+
+#: clients/models.py:205
+msgid "Статус установки"
+msgstr "Орнотуунун статусу"
+
+#: billing/models.py:375
+msgid "Статьи кассы"
+msgstr "Кассанын беренелери"
+
+#: billing/views.py:422
+msgid "Статья"
+msgstr "Берене"
+
+#: billing/models.py:374
+msgid "Статья кассы"
+msgstr "Кассанын беренеси"
+
+#: billing/models.py:52
+msgid "Статья кассы (код)"
+msgstr "Кассанын беренеси (коду)"
+
+#: billing/cash.py:212
+msgid "Статья не соответствует направлению проводки."
+msgstr "Берене жазуунун багытына дал келбейт."
+
+#: network/models.py:212
+msgid "Стоимость"
+msgstr "Баасы"
+
+#: network/models.py:415
+msgid "Стоимость установки по правилу"
+msgstr "Эрежеге ылайык орнотуунун баасы"
+
+#: billing/cash.py:78
+msgid "Сторно"
+msgstr "Сторно"
+
+#: clients/services.py:339
+msgid "Сторно доли OZOK (возврат платежа клиента)"
+msgstr "OZOK үлүшүн сторнолоо (кардардын төлөмүн кайтаруу)"
+
+#: clients/services.py:346
+msgid "Сторно удержания (возврат платежа клиента)"
+msgstr "Кармоону сторнолоо (кардардын төлөмүн кайтаруу)"
+
+#: billing/cash.py:78
+#, python-brace-format
+msgid "Сторно: {reason}"
+msgstr "Сторно: {reason}"
+
+#: billing/models.py:22 billing/models.py:53 billing/models.py:77
+msgid "Сумма"
+msgstr "Сумма"
+
+#: network/services.py:115
+msgid "Сумма «сразу» и рассрочки не может превышать стоимость франшизы."
+msgstr "«Дароо» жана бөлүп төлөө суммасы франшизанын баасынан ашпашы керек."
+
+#: network/serializers.py:665
+msgid "Сумма «сразу» не может превышать стоимость."
+msgstr "«Дароо» суммасы баадан ашпашы керек."
+
+#: network/models.py:250
+msgid "Сумма взноса"
+msgstr "Жарнанын суммасы"
+
+#: network/serializers.py:396
+msgid "Сумма взноса не может быть отрицательной."
+msgstr "Жарнанын суммасы терс болушу мүмкүн эмес."
+
+#: clients/services.py:312
+msgid "Сумма возвратов не может превышать сумму платежа."
+msgstr "Кайтаруулардын суммасы төлөмдүн суммасынан ашпашы керек."
+
+#: billing/cash.py:191 billing/serializers.py:30 billing/serializers.py:44
+msgid "Сумма должна быть больше нуля."
+msgstr "Сумма нөлдөн чоң болушу керек."
+
+#: billing/models.py:260
+msgid "Сумма к выплате"
+msgstr "Төлөнө турган сумма"
+
+#: network/serializers.py:603
+msgid "Сумма не может быть отрицательной."
+msgstr "Сумма терс болушу мүмкүн эмес."
+
+#: billing/payments.py:95
+msgid "Сумма оплаты должна быть больше нуля."
+msgstr "Төлөмдүн суммасы нөлдөн чоң болушу керек."
+
+#: integrations/services.py:139
+msgid "Сумма платежа должна быть больше нуля."
+msgstr "Төлөмдүн суммасы нөлдөн чоң болушу керек."
+
+#: clients/services.py:141
+msgid "Сумма продажи должна быть больше нуля."
+msgstr "Сатуунун суммасы нөлдөн чоң болушу керек."
+
+#: billing/models.py:205
+msgid "Сумма, сом"
+msgstr "Сумма, сом"
+
+#: network/serializers.py:685 network/services.py:113
+msgid "Суммы не могут быть отрицательными."
+msgstr "Суммалар терс болушу мүмкүн эмес."
+
+#: clients/legacy.py:188
+#, python-brace-format
+msgid "Существующий клиент OZOK ({action})"
+msgstr "OZOK учурдагы кардары ({action})"
+
+#: core/models.py:156 core/models.py:188
+msgid "Сущность"
+msgstr "Объект"
+
+#: network/models.py:21 network/models.py:244
+msgid "Сфера"
+msgstr "Чөйрө"
+
+#: clients/legacy.py:72
+msgid "Сфера (product) не найдена."
+msgstr "Чөйрө (product) табылган жок."
+
+#: leads/models.py:49
+msgid "Сфера (код), package:<id>, help"
+msgstr "Чөйрө (коду), package:<id>, help"
+
+#: network/models.py:339
+msgid "Сфера (пусто — для всех)"
+msgstr "Чөйрө (бош — бардыгы үчүн)"
+
+#: clients/legacy.py:219
+msgid "Сфера или ID в продукте повторяются в списке."
+msgstr "Чөйрө же продуктудагы ID тизмеде кайталанат."
+
+#: dashboard/views.py:96 dashboard/views.py:113 network/views.py:306
+msgid "Сфера не найдена."
+msgstr "Чөйрө табылган жок."
+
+#: clients/legacy.py:74 network/serializers.py:434 network/services.py:249
+msgid "Сфера отключена."
+msgstr "Чөйрө өчүрүлгөн."
+
+#: network/services.py:251
+msgid "Сфера уже подключена."
+msgstr "Чөйрө мурунтан эле туташтырылган."
+
+#: network/models.py:77
+msgid "Сферы"
+msgstr "Чөйрөлөр"
+
+#: network/models.py:247
+msgid "Сферы (авто)"
+msgstr "Чөйрөлөр (авто)"
+
+#: network/models.py:248
+msgid "Схема оплаты"
+msgstr "Төлөм схемасы"
+
+#: billing/models.py:350
+msgid "Счета и кассы OZOK"
+msgstr "OZOK эсептери жана кассалары"
+
+#: billing/views.py:418
+msgid "Счёт"
+msgstr "Эсеп"
+
+#: billing/models.py:349
+msgid "Счёт / касса OZOK"
+msgstr "OZOK эсеби / кассасы"
+
+#: core/settings_registry.py:39
+msgid "Счёт кассы для оплат абонплаты по источнику (вид счёта)"
+msgstr "Булак боюнча абоненттик төлөмдөр үчүн кассанын эсеби (эсептин түрү)"
+
+#: billing/models.py:393
+msgid "Счёт назначения"
+msgstr "Алуучу эсеп"
+
+#: billing/cash.py:193
+msgid "Счёт отключён."
+msgstr "Эсеп өчүрүлгөн."
+
+#: clients/installations.py:128
+msgid "Такого канала нет у установки."
+msgstr "Орнотууда мындай канал жок."
+
+#: clients/legacy.py:25 network/models.py:310
+msgid "Тариф"
+msgstr "Тариф"
+
+#: clients/legacy.py:83
+#, python-brace-format
+msgid "Тариф «{t}» не найден в сфере «{name}»."
+msgstr "«{t}» тарифи «{name}» чөйрөсүндө табылган жок."
+
+#: network/views.py:350
+msgid "Тариф используется в продажах или у клиентов. Отключите его (is_active=false)."
+msgstr "Тариф сатууларда же кардарларда колдонулат. Аны өчүрүңүз (is_active=false)."
+
+#: clients/deals.py:62 clients/serializers.py:246 clients/serializers.py:341
+msgid "Тариф относится к другой сфере."
+msgstr "Тариф башка чөйрөгө тиешелүү."
+
+#: network/serializers.py:524
+msgid "Тариф с таким кодом уже есть у продукта."
+msgstr "Мындай коддогу тариф продуктуда мурунтан эле бар."
+
+#: network/serializers.py:614
+msgid "Тариф указывается только для правил абонплаты."
+msgstr "Тариф абоненттик төлөм эрежелери үчүн гана көрсөтүлөт."
+
+#: network/models.py:311
+msgid "Тарифы"
+msgstr "Тарифтер"
+
+#: tasks/models.py:49
+msgid "Текст"
+msgstr "Текст"
+
+#: accounts/views.py:183
+msgid "Текущий пароль неверный."
+msgstr "Учурдагы сырсөз туура эмес."
+
+#: accounts/models.py:81 clients/legacy.py:25 clients/models.py:39
+msgid "Телефон"
+msgstr "Телефон"
+
+#: integrations/views.py:81
+msgid "Тело запроса должно быть JSON."
+msgstr "Сурамдын денеси JSON болушу керек."
+
+#: quality/models.py:28
+msgid "Тема"
+msgstr "Тема"
+
+#: accounts/models.py:95
+msgid "Тема оформления"
+msgstr "Жасалгалоо темасы"
+
+#: clients/models.py:216 network/models.py:419
+msgid "Технические каналы"
+msgstr "Техникалык каналдар"
+
+#: core/models.py:122
+msgid "Тип"
+msgstr "Түрү"
+
+#: clients/models.py:36
+msgid "Тип бизнеса"
+msgstr "Бизнестин түрү"
+
+#: integrations/models.py:21
+msgid "Тип события"
+msgstr "Окуянын түрү"
+
+#: accounts/models.py:32
+msgid "Только назначенное"
+msgstr "Дайындалганы гана"
+
+#: core/permissions.py:236
+msgid "Требуется сменить временный пароль (auth/change-password/)."
+msgstr "Убактылуу сырсөздү өзгөртүү керек (auth/change-password/)."
+
+#: accounts/models.py:75
+msgid "Тёмная"
+msgstr "Караңгы"
+
+#: accounts/serializers.py:177
+msgid "У Super Admin всегда все права: отличия не применяются."
+msgstr "Super Admin'де ар дайым бардык укуктар бар: айырмачылыктар колдонулбайт."
+
+#: accounts/serializers.py:243
+msgid "У Super Admin всегда все права: роль не редактируется."
+msgstr "Super Admin'де ар дайым бардык укуктар бар: роль түзөтүлбөйт."
+
+#: core/permissions.py:228 dashboard/views.py:88 dashboard/views.py:117
+msgid "У вас нет прав для этого действия."
+msgstr "Бул аракет үчүн сизде укук жок."
+
+#: clients/deal_serializers.py:141
+msgid "У клиента уже есть другая заявка-источник."
+msgstr "Кардарда башка булак-өтүнмө мурунтан эле бар."
+
+#: integrations/services.py:423
+msgid "У события нет продукта."
+msgstr "Окуяда продукт жок."
+
+#: billing/payments.py:297
+msgid "У филиала не указан продукт."
+msgstr "Филиалда продукт көрсөтүлгөн эмес."
+
+#: billing/payments.py:58
+msgid "У филиала не указан продукт: укажите подписку (subscription)."
+msgstr "Филиалда продукт көрсөтүлгөн эмес: жазылууну (subscription) көрсөтүңүз."
+
+#: network/serializers.py:451 network/services.py:207
+msgid "У франчайзи уже есть действующий договор на сферу: "
+msgstr "Франчайзиде чөйрө боюнча күчүндөгү келишим мурунтан эле бар: "
+
+#: accounts/views.py:219
+msgid "Удаление роли доступа"
+msgstr "Жетүү ролун өчүрүү"
+
+#: network/views.py:295
+msgid "Удалить можно только черновик договора."
+msgstr "Келишимдин долбоорун гана өчүрүүгө болот."
+
+#: clients/services.py:69
+#, python-brace-format
+msgid "Удержание в счёт франшизы по договору {number}"
+msgstr "{number} келишими боюнча франшиза эсебине кармоо"
+
+#: core/settings_registry.py:16
+msgid "Удержание из дохода по умолчанию, %"
+msgstr "Демейки кирешеден кармоо, %"
+
+#: network/models.py:258
+msgid "Удержание с дохода, %"
+msgstr "Кирешеден кармоо, %"
+
+#: billing/models.py:12
+msgid "Удержание с продаж"
+msgstr "Сатуулардан кармоо"
+
+#: clients/services.py:77
+#, python-brace-format
+msgid "Удержание с продажи ({v})"
+msgstr "Сатуудан кармоо ({v})"
+
+#: network/serializers.py:401 network/services.py:119
+msgid "Удержание — от 0 до 100 процентов."
+msgstr "Кармоо — 0дөн 100 пайызга чейин."
+
+#: billing/models.py:309 clients/models.py:323
+msgid "Удержано в счёт франшизы"
+msgstr "Франшиза эсебине кармалды"
+
+#: billing/models.py:284
+msgid "Удержано до решения OZOK"
+msgstr "OZOK чечимине чейин кармалды"
+
+#: billing/payments.py:301
+#, python-brace-format
+msgid "Уже есть оплата №{id}."
+msgstr "№{id} төлөм мурунтан эле бар."
+
+#: accounts/models.py:11
+msgid "Укажите email"
+msgstr "Email көрсөтүңүз"
+
+#: dashboard/views.py:47
+msgid "Укажите partner."
+msgstr "partner көрсөтүңүз."
+
+#: dashboard/views.py:110
+msgid "Укажите product."
+msgstr "product көрсөтүңүз."
+
+#: core/views.py:51
+msgid "Укажите value."
+msgstr "value көрсөтүңүз."
+
+#: clients/legacy.py:50
+#, python-brace-format
+msgid "Укажите «{field}»."
+msgstr "«{field}» көрсөтүңүз."
+
+#: training/serializers.py:56
+msgid "Укажите балл."
+msgstr "Балл көрсөтүңүз."
+
+#: clients/serializers.py:235
+msgid "Укажите вид продажи."
+msgstr "Сатуунун түрүн көрсөтүңүз."
+
+#: clients/deals.py:264
+msgid "Укажите клиента (карточку или название)."
+msgstr "Кардарды көрсөтүңүз (карточка же аталышы)."
+
+#: clients/deal_serializers.py:122
+msgid "Укажите клиента партнёра."
+msgstr "Өнөктөштүн кардарын көрсөтүңүз."
+
+#: clients/deals.py:262 core/serializers.py:85
+msgid "Укажите клиента."
+msgstr "Кардарды көрсөтүңүз."
+
+#: tasks/services.py:20
+msgid "Укажите комментарий с причиной отказа."
+msgstr "Баш тартуунун себеби менен комментарий көрсөтүңүз."
+
+#: clients/legacy.py:197
+msgid "Укажите название компании (business_name)."
+msgstr "Компаниянын аталышын көрсөтүңүз (business_name)."
+
+#: clients/views.py:207
+msgid "Укажите номер лицевого счёта Элкюар."
+msgstr "Элкюар жеке эсебинин номерин көрсөтүңүз."
+
+#: clients/branches.py:207
+msgid "Укажите основание переназначения: "
+msgstr "Кайра дайындоонун негиздемесин көрсөтүңүз: "
+
+#: quality/serializers.py:47
+msgid "Укажите оценку."
+msgstr "Баа көрсөтүңүз."
+
+#: accounts/serializers.py:151
+msgid "Укажите пароль."
+msgstr "Сырсөздү көрсөтүңүз."
+
+#: billing/views.py:287 clients/views.py:171
+msgid "Укажите партнёра (partner)."
+msgstr "Өнөктөштү (partner) көрсөтүңүз."
+
+#: billing/serializers.py:183
+msgid "Укажите партнёра."
+msgstr "Өнөктөштү көрсөтүңүз."
+
+#: network/views.py:195
+msgid "Укажите причину возврата партнёра."
+msgstr "Өнөктөштү кайтаруунун себебин көрсөтүңүз."
+
+#: network/closure.py:40
+msgid "Укажите причину закрытия партнёра."
+msgstr "Өнөктөштү жабуунун себебин көрсөтүңүз."
+
+#: clients/views.py:132
+msgid "Укажите причину закрытия."
+msgstr "Жабуунун себебин көрсөтүңүз."
+
+#: network/serializers.py:620 network/views.py:442
+msgid "Укажите причину изменения правила."
+msgstr "Эрежени өзгөртүүнүн себебин көрсөтүңүз."
+
+#: network/views.py:372
+msgid "Укажите причину изменения цены."
+msgstr "Баанын өзгөртүүнүн себебин көрсөтүңүз."
+
+#: core/settings_registry.py:101
+msgid "Укажите причину изменения."
+msgstr "Өзгөртүүнүн себебин көрсөтүңүз."
+
+#: leads/serializers.py:102 leads/serializers.py:103 leads/services.py:138
+msgid "Укажите причину отказа."
+msgstr "Баш тартуунун себебин көрсөтүңүз."
+
+#: billing/cash.py:235 billing/payments.py:198 billing/recruiters.py:113
+msgid "Укажите причину отмены."
+msgstr "Жокко чыгаруунун себебин көрсөтүңүз."
+
+#: leads/services.py:75
+msgid "Укажите причину переназначения."
+msgstr "Кайра дайындоонун себебин көрсөтүңүз."
+
+#: clients/branches.py:76 leads/serializers.py:109
+msgid "Укажите причину."
+msgstr "Себебин көрсөтүңүз."
+
+#: network/serializers.py:599
+msgid "Укажите процент и/или фиксированную сумму."
+msgstr "Пайызды жана/же белгиленген сумманы көрсөтүңүз."
+
+#: accounts/serializers.py:153
+msgid "Укажите роль."
+msgstr "Ролду көрсөтүңүз."
+
+#: quality/serializers.py:43
+msgid "Укажите статус."
+msgstr "Статусту көрсөтүңүз."
+
+#: billing/cash.py:210
+msgid "Укажите статью."
+msgstr "Беренени көрсөтүңүз."
+
+#: billing/views.py:190
+msgid "Укажите сумму возврата."
+msgstr "Кайтаруунун суммасын көрсөтүңүз."
+
+#: clients/serializers.py:249
+msgid "Укажите сумму."
+msgstr "Сумманы көрсөтүңүз."
+
+#: integrations/views.py:129
+msgid "Укажите существующую сферу в поле product."
+msgstr "product талаасында учурдагы чөйрөнү көрсөтүңүз."
+
+#: clients/legacy_views.py:29
+msgid "Укажите сферу (product)."
+msgstr "Чөйрөнү (product) көрсөтүңүз."
+
+#: clients/legacy.py:270
+msgid "Укажите сферу (product): id или код."
+msgstr "Чөйрөнү (product) көрсөтүңүз: id же код."
+
+#: network/serializers.py:430 network/services.py:21
+msgid "Укажите сферу или пакет (одно из двух)."
+msgstr "Чөйрөнү же пакетти көрсөтүңүз (экөөнүн бирин)."
+
+#: core/settings_registry.py:159
+msgid "Укажите счета по источникам: "
+msgstr "Булактар боюнча эсептерди көрсөтүңүз: "
+
+#: billing/views.py:390
+msgid "Укажите счёт (account) и статью расхода (category)."
+msgstr "Эсепти (account) жана чыгым беренесин (category) көрсөтүңүз."
+
+#: clients/legacy.py:93
+msgid "Укажите тариф или цену в месяц."
+msgstr "Тарифти же айлык бааны көрсөтүңүз."
+
+#: core/serializers.py:63 integrations/serializers.py:29
+#: leads/serializers.py:88
+msgid "Укажите франчайзи."
+msgstr "Франчайзини көрсөтүңүз."
+
+#: clients/legacy.py:207
+msgid "Укажите хотя бы одну сферу (spheres)."
+msgstr "Жок дегенде бир чөйрөнү (spheres) көрсөтүңүз."
+
+#: network/serializers.py:522
+msgid "Укажите цену в месяц."
+msgstr "Айлык бааны көрсөтүңүз."
+
+#: network/closure.py:44
+msgid "Укажите, кому передать клиентов: transfer_to_partner или transfer_to_user."
+msgstr "Кардарларды кимге өткөрүүнү көрсөтүңүз: transfer_to_partner же transfer_to_user."
+
+#: clients/installations.py:155
+msgid "Укажите, кто из клиента подтвердил акт."
+msgstr "Актыны кардардан ким ырастаганын көрсөтүңүз."
+
+#: network/models.py:151 network/models.py:181
+msgid "Уровень"
+msgstr "Деңгээл"
+
+#: network/models.py:389
+msgid "Уровень партнёра"
+msgstr "Өнөктөштүн деңгээли"
+
+#: clients/models.py:327
+msgid "Уровень партнёра на дату"
+msgstr "Күнүнө өнөктөштүн деңгээли"
+
+#: clients/models.py:14
+msgid "Услуги"
+msgstr "Кызматтар"
+
+#: clients/models.py:341
+msgid "Установил"
+msgstr "Орноткон"
+
+#: clients/models.py:286 clients/models.py:429 clients/reports.py:15
+msgid "Установка и обучение"
+msgstr "Орнотуу жана окутуу"
+
+#: network/models.py:29
+msgid "Установка и обучение (рекомендуемая)"
+msgstr "Орнотуу жана окутуу (сунушталган)"
+
+#: clients/installations.py:157
+msgid "Установка отменена."
+msgstr "Орнотуу жокко чыгарылды."
+
+#: clients/installations.py:72
+msgid "Установка уже в этом статусе."
+msgstr "Орнотуу мурунтан эле ушул статуста."
+
+#: clients/models.py:344
+msgid "Установлено"
+msgstr "Орнотулду"
+
+#: clients/serializers.py:520
+msgid "Установщик — сотрудник OZOK или этого партнёра."
+msgstr "Орноткуч — OZOK кызматкери же ушул өнөктөштүн кызматкери."
+
+#: clients/models.py:140
+msgid "Уход партнёра"
+msgstr "Өнөктөштүн кетиши"
+
+#: network/closure.py:79
+#, python-brace-format
+msgid "Уход партнёра: {reason}"
+msgstr "Өнөктөштүн кетиши: {reason}"
+
+#: accounts/views.py:45
+msgid "Учётная запись отключена."
+msgstr "Эсеп өчүрүлгөн."
+
+#: clients/models.py:166 network/models.py:133
+msgid "ФИО"
+msgstr "А.Ж.А."
+
+#: billing/payments.py:250 clients/legacy.py:249
+msgid "Файл пустой."
+msgstr "Файл бош."
+
+#: accounts/models.py:80
+msgid "Фамилия"
+msgstr "Фамилиясы"
+
+#: network/serializers.py:612
+msgid "Фикс «за месяц» возможен только для абонплаты."
+msgstr "«Айына» белгиленген сумма абоненттик төлөм үчүн гана мүмкүн."
+
+#: network/models.py:395
+msgid "Фикс за"
+msgstr "Белгиленген сумма (үчүн)"
+
+#: network/models.py:393
+msgid "Фиксированная сумма"
+msgstr "Белгиленген сумма"
+
+#: clients/models.py:317
+msgid "Фиксированная часть"
+msgstr "Белгиленген бөлүк"
+
+#: clients/models.py:104
+msgid "Филиал"
+msgstr "Филиал"
+
+#: clients/deal_serializers.py:133 clients/serializers.py:377
+#: clients/serializers.py:432
+msgid "Филиал относится к другому клиенту."
+msgstr "Филиал башка кардарга тиешелүү."
+
+#: clients/branches.py:216
+msgid "Филиал уже закреплён за этим партнёром."
+msgstr "Филиал мурунтан эле ушул өнөктөшкө бекитилген."
+
+#: clients/branches.py:184
+msgid "Филиал уже закреплён."
+msgstr "Филиал мурунтан эле бекитилген."
+
+#: clients/models.py:105
+msgid "Филиалы"
+msgstr "Филиалдар"
+
+#: accounts/models.py:63
+msgid "Финансист OZOK"
+msgstr "OZOK финансисти"
+
+#: core/models.py:125
+msgid "Финансовый параметр"
+msgstr "Каржы параметри"
+
+#: accounts/models.py:65 accounts/models.py:84 network/models.py:99
+msgid "Франчайзи"
+msgstr "Франчайзи"
+
+#: clients/serializers.py:238
+msgid "Франчайзи вносит вручную установку, оборудование и прочее: абонплата приходит из продукта."
+msgstr "Франчайзи орнотууну, жабдууну жана башкасын кол менен киргизет: абоненттик төлөм продуктудан келет."
+
+#: integrations/serializers.py:28 leads/serializers.py:87
+msgid "Франчайзи не найден."
+msgstr "Франчайзи табылган жок."
+
+#: leads/models.py:32
+msgid "Франшиза"
+msgstr "Франшиза"
+
+#: core/settings_registry.py:15
+msgid "Франшиза «Рассрочка до», сом (≈ $2 000)"
+msgstr "«Бөлүп төлөө» франшизасы, сом (≈ $2 000)"
+
+#: core/settings_registry.py:14
+msgid "Франшиза «Сразу», сом (≈ $1 000)"
+msgstr "«Дароо» франшизасы, сом (≈ $1 000)"
+
+#: network/models.py:26
+msgid "Цвет"
+msgstr "Түс"
+
+#: network/serializers.py:91
+msgid "Цвет задаётся в формате #RRGGBB."
+msgstr "Түс #RRGGBB форматында коюлат."
+
+#: billing/models.py:104
+msgid "Цель, сом"
+msgstr "Максат, сом"
+
+#: network/models.py:80
+msgid "Цена (из продаж)"
+msgstr "Баасы (сатуулардан)"
+
+#: network/models.py:78
+msgid "Цена (оплата сразу)"
+msgstr "Баасы (дароо төлөм)"
+
+#: network/models.py:79
+msgid "Цена (с предоплатой)"
+msgstr "Баасы (алдын ала төлөм менен)"
+
+#: clients/legacy.py:25 network/models.py:323
+msgid "Цена в месяц"
+msgstr "Айлык баа"
+
+#: network/commission.py:149 network/serializers.py:562
+msgid "Цена не может быть отрицательной."
+msgstr "Баа терс болушу мүмкүн эмес."
+
+#: clients/models.py:443
+msgid "Цена по прайсу (за единицу/месяц)"
+msgstr "Прайс боюнча баа (бирдик/ай үчүн)"
+
+#: network/models.py:328
+msgid "Цена тарифа"
+msgstr "Тарифтин баасы"
+
+#: network/models.py:28
+msgid "Цена франшизы (из продаж)"
+msgstr "Франшизанын баасы (сатуулардан)"
+
+#: network/models.py:27
+msgid "Цена франшизы (оплата сразу)"
+msgstr "Франшизанын баасы (дароо төлөм)"
+
+#: clients/models.py:401
+msgid "Частично"
+msgstr "Жарым-жартылай"
+
+#: clients/models.py:209 quality/models.py:62
+msgid "Чек-лист"
+msgstr "Чек-лист"
+
+#: quality/serializers.py:63
+msgid "Чек-лист должен быть непустым списком критериев."
+msgstr "Чек-лист критерийлердин бош эмес тизмеси болушу керек."
+
+#: billing/models.py:218
+msgid "Чем сверено"
+msgstr "Эмне менен салыштырылды"
+
+#: leads/services.py:164
+msgid "Через запрос меняются: source, franchisee, implementer."
+msgstr "Сурам аркылуу өзгөртүлөт: source, franchisee, implementer."
+
+#: billing/models.py:253 clients/models.py:372 network/models.py:236
+msgid "Черновик"
+msgstr "Долбоор"
+
+#: clients/models.py:536
+msgid "Шаблон договора"
+msgstr "Келишим үлгүсү"
+
+#: clients/models.py:487
+msgid "Шаблон чек-листа"
+msgstr "Чек-лист үлгүсү"
+
+#: clients/models.py:537
+msgid "Шаблоны договоров"
+msgstr "Келишим үлгүлөрү"
+
+#: clients/models.py:488
+msgid "Шаблоны чек-листов"
+msgstr "Чек-лист үлгүлөрү"
+
+#: network/serializers.py:391
+msgid "Шаг рассрочки — не меньше одного месяца."
+msgstr "Бөлүп төлөөнүн кадамы — бир айдан кем эмес."
+
+#: network/models.py:257
+msgid "Шаг рассрочки, мес."
+msgstr "Бөлүп төлөөнүн кадамы, ай"
+
+#: network/models.py:215
+msgid "Шаг, мес."
+msgstr "Кадам, ай"
+
+#: network/models.py:111
+msgid "Экзамен"
+msgstr "Экзамен"
+
+#: network/partners.py:149
+msgid "Экзамен сдан"
+msgstr "Экзамен тапшырылды"
+
+#: core/models.py:149
+msgid "Экспорт"
+msgstr "Экспорт"
+
+#: billing/models.py:185 billing/models.py:340 integrations/models.py:18
+msgid "Элкюар"
+msgstr "Элкюар"
+
+#: billing/cash.py:214
+msgid "Эта статья ведётся автоматически: вручную доступны «Прочие поступления», расходы OZOK и переводы."
+msgstr "Бул берене автоматтык жүргүзүлөт: кол менен «Башка түшүүлөр», OZOK чыгымдары жана которуулар жеткиликтүү."
+
+#: clients/models.py:190
+msgid "Этап"
+msgstr "Этап"
+
+#: network/partners.py:129
+msgid "Этап «Активирован» ставится автоматически при активации договора франшизы."
+msgstr "«Активдештирилди» этабы франшиза келишими активдештирилгенде автоматтык коюлат."
+
+#: network/models.py:152 network/models.py:182 network/partners.py:139
+msgid "Этап воронки"
+msgstr "Воронканын этабы"
+
+#: network/partners.py:134
+msgid "Этапы менеджера ставятся автоматически: после сдачи экзамена и по продажам."
+msgstr "Менеджердин этаптары автоматтык коюлат: экзамен тапшырылгандан кийин жана сатуулар боюнча."
+
+#: accounts/views.py:257
+msgid "Это действие нельзя применить к самому себе."
+msgstr "Бул аракетти өзүнө колдонууга болбойт."
+
+#: core/serializers.py:16
+msgid "Это поле не может быть пустым."
+msgstr "Бул талаа бош болушу мүмкүн эмес."
+
+#: leads/serializers.py:64
+msgid "Это поле партнёр изменить не может."
+msgstr "Бул талааны өнөктөш өзгөртө албайт."
+
+#: billing/cash.py:237
+msgid "Это сторнирующая проводка: отменять её нельзя."
+msgstr "Бул сторно жазуу: аны жокко чыгарууга болбойт."
+
+#: training/services.py:27
+msgid "Этот курс уже назначен сотруднику."
+msgstr "Бул курс кызматкерге мурунтан эле дайындалган."
+
+#: clients/serializers.py:334
+msgid "Этот лицевой счёт Элкюар уже привязан к другому филиалу."
+msgstr "Бул Элкюар жеке эсеби башка филиалга мурунтан эле байланышкан."
+
+#: core/views.py:49
+msgid "Эту настройку меняет только Super Admin OZOK."
+msgstr "Бул жөндөөнү OZOK Super Admin гана өзгөртөт."
+
+#: clients/views.py:284
+msgid "Эту продажу может отменить только OZOK."
+msgstr "Бул сатууну OZOK гана жокко чыгара алат."
+
+#: clients/models.py:33 network/models.py:132
+msgid "Юрлицо"
+msgstr "Юридикалык жак"
+
+#: accounts/models.py:93
+msgid "Язык интерфейса"
+msgstr "Интерфейстин тили"
+
+#: clients/deals.py:483
+msgid "без комментария"
+msgstr "комментарийсиз"
+
+#: clients/legacy.py:300
+msgid "дубль внутри файла"
+msgstr "файл ичинде кайталануу"
+
+#: clients/legacy.py:133
+#, python-brace-format
+msgid "лицевой счёт Элкюар {v}"
+msgstr "Элкюар жеке эсеби {v}"
+
+#: network/services.py:258
+#, python-brace-format
+msgid "пакета «{name}»"
+msgstr "«{name}» пакетинин"
+
+#: clients/deals.py:130
+#, python-brace-format
+msgid "скидка {v}% выше допустимой {v1}%"
+msgstr "{v}% арзандатуу уруксат берилгендеги {v1}%дан жогору"
+
+#: network/services.py:252
+#, python-brace-format
+msgid "сферы «{v}»"
+msgstr "«{v}» чөйрөсүнүн"
+
+#: clients/legacy.py:125
+#, python-brace-format
+msgid "телефон {v}"
+msgstr "телефон {v}"
+
+#: clients/legacy.py:240
+msgid "ул. Примерная, 1"
+msgstr "Үлгү көчөсү, 1"
+
+#: clients/deals.py:136
+#, python-brace-format
+msgid "цена {unit} ниже минимальной {v}"
+msgstr "{unit} баасы минималдуудан {v} төмөн"
+
+msgid "This field is required."
+msgstr "Бул талаа милдеттүү."
+
+msgid "This field may not be blank."
+msgstr "Бул талаа бош болушу мүмкүн эмес."
+
+msgid "This field may not be null."
+msgstr "Бул талаа null болушу мүмкүн эмес."
+
+msgid "Not found."
+msgstr "Табылган жок."
+
+msgid "Invalid input."
+msgstr "Туура эмес киргизүү."
+
+msgid "Authentication credentials were not provided."
+msgstr "Аутентификация маалыматтары берилген жок."
+
+msgid "You do not have permission to perform this action."
+msgstr "Бул аракетти аткарууга укугуңуз жок."
+
+msgid "Incorrect authentication credentials."
+msgstr "Аутентификация маалыматтары туура эмес."
+
+msgid "Invalid token."
+msgstr "Токен жараксыз."
+
+msgid "User inactive or deleted."
+msgstr "Колдонуучу активдүү эмес же өчүрүлгөн."
+
+msgid "Given token not valid for any token type"
+msgstr "Токен жараксыз же мөөнөтү өттү"
+
+msgid "Token is invalid or expired"
+msgstr "Токен жараксыз же мөөнөтү өттү"
+
+msgid "A valid integer is required."
+msgstr "Туура бүтүн сан талап кылынат."
+
+msgid "A valid number is required."
+msgstr "Туура сан талап кылынат."
+
+msgid "Not a valid string."
+msgstr "Туура сап эмес."
+
+msgid "Enter a valid email address."
+msgstr "Туура email дарегин киргизиңиз."
+
+#, python-brace-format
+msgid "Date has wrong format. Use one of these formats instead: {format}."
+msgstr "Күндүн форматы туура эмес. Бул форматтардын бирин колдонуңуз: {format}."
+
+#, python-brace-format
+msgid "Datetime has wrong format. Use one of these formats instead: {format}."
+msgstr "Күн жана убакыттын форматы туура эмес. Бул форматтардын бирин колдонуңуз: {format}."
+
+msgid "Expected a date but got a datetime."
+msgstr "Күн күтүлгөн, бирок күн жана убакыт алынды."
+
+#, python-brace-format
+msgid "\"{input}\" is not a valid choice."
+msgstr "«{input}» туура тандоо эмес."
+
+#, python-brace-format
+msgid "\"{input}\" is not a valid boolean."
+msgstr "«{input}» туура логикалык маани эмес."
+
+#, python-brace-format
+msgid "Invalid pk \"{pk_value}\" - object does not exist."
+msgstr "Жараксыз pk «{pk_value}» — объект жок."
+
+#, python-brace-format
+msgid "Incorrect type. Expected pk value, received {data_type}."
+msgstr "Туура эмес түр. pk мааниси күтүлгөн, {data_type} алынды."
+
+#, python-brace-format
+msgid "Ensure this value is greater than or equal to {min_value}."
+msgstr "Маани {min_value}ден кем эмес болушу керек."
+
+#, python-brace-format
+msgid "Ensure this value is less than or equal to {max_value}."
+msgstr "Маани {max_value}ден ашпашы керек."
+
+#, python-brace-format
+msgid "Ensure this field has no more than {max_length} characters."
+msgstr "Бул талаада {max_length} белгиден ашык болбошу керек."
+
+#, python-brace-format
+msgid "Ensure this field has at least {min_length} characters."
+msgstr "Бул талаада кеминде {min_length} белги болушу керек."
+
+msgid "This list may not be empty."
+msgstr "Бул тизме бош болушу мүмкүн эмес."
+
+#, python-brace-format
+msgid "Expected a list of items but got type \"{input_type}\"."
+msgstr "Элементтердин тизмеси күтүлгөн, бирок «{input_type}» түрү алынды."
+
+#, python-brace-format
+msgid "Invalid data. Expected a dictionary, but got {datatype}."
+msgstr "Маалымат туура эмес. Сөздүк күтүлгөн, бирок {datatype} алынды."
+
+msgid "Invalid page."
+msgstr "Бет туура эмес."
+
+#, python-brace-format
+msgid "Method \"{method}\" not allowed."
+msgstr "«{method}» ыкмасына уруксат жок."
+
+msgid "Request was throttled."
+msgstr "Сурамдардын саны чектен ашты."
+
+#, python-brace-format
+msgid "Expected available in {wait} seconds."
+msgstr "{wait} секунддан кийин жеткиликтүү болот."
+
+#, python-brace-format
+msgid "Unsupported media type \"{media_type}\" in request."
+msgstr "Сурамдагы «{media_type}» медиа түрү колдоого алынбайт."
+
+#, python-brace-format
+msgid "JSON parse error - {error}"
+msgstr "JSON окуу катасы — {error}"
+
+msgid "Malformed request."
+msgstr "Сурам туура эмес түзүлгөн."
+
+msgid "Not authenticated"
+msgstr "Аутентификациядан өтө элек"
+
